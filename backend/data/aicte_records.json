@@ -1,0 +1,2830 @@
+{
+  "institutions": {
+    "INST-TN-0412": {
+      "permanent_id": "1-4412870301",
+      "name": "Coromandel Institute of Technology",
+      "state": "Tamil Nadu (demo)",
+      "established": 2004,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-MECH",
+          "name": "B.E. Mechanical Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "ME-CSE",
+          "name": "M.E. Computer Science and Engineering",
+          "level": "PG_ENGINEERING",
+          "intake": 18
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/94829/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 21,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-207622",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-334130",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2004-05",
+          "type": "New institution",
+          "ref": "NEW-2004-730226",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 13.0979,
+      "longitude": 80.3268
+    },
+    "INST-MH-1187": {
+      "permanent_id": "1-3398120455",
+      "name": "Sahyadri College of Engineering",
+      "state": "Maharashtra (demo)",
+      "established": 2009,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-IT",
+          "name": "B.E. Information Technology",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-CIVIL",
+          "name": "B.E. Civil Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/99807/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [
+        "Library area shortfall noted in 2025-26 scrutiny"
+      ],
+      "ter_payments": {
+        "2027-28": "PENDING",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 7,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-614102",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-812390",
+          "outcome": "Approved with conditions",
+          "remarks": "Library area shortfall to be closed within one year"
+        },
+        {
+          "academic_year": "2009-10",
+          "type": "New institution",
+          "ref": "NEW-2009-429497",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.4407,
+      "longitude": 73.8261
+    },
+    "INST-UP-2290": {
+      "permanent_id": "1-5520771190",
+      "name": "Ganga Valley Institute of Engineering",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BTECH-CSE",
+          "name": "B.Tech Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BTECH-EE",
+          "name": "B.Tech Electrical Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/47696/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-579668",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-247732",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-776116",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.9114,
+      "longitude": 80.9849
+    },
+    "INST-UP-9000": {
+      "permanent_id": "1-7403928141",
+      "name": "Vindhya Engineering College",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2011,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/26908/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 6,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-957873",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-151262",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2011-12",
+          "type": "New institution",
+          "ref": "NEW-2011-838892",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.8058,
+      "longitude": 80.9653
+    },
+    "INST-KL-9001": {
+      "permanent_id": "1-8867701486",
+      "name": "Kaveri Engineering College",
+      "state": "Kerala (demo)",
+      "established": 1995,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/71165/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 10,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-636102",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-903946",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1995-96",
+          "type": "New institution",
+          "ref": "NEW-1995-966305",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.978,
+      "longitude": 76.2594
+    },
+    "INST-UP-9002": {
+      "permanent_id": "1-2589690976",
+      "name": "Narmada Engineering College",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2001,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/69143/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-708845",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-673141",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2001-02",
+          "type": "New institution",
+          "ref": "NEW-2001-976981",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.8988,
+      "longitude": 80.9402
+    },
+    "INST-GJ-9003": {
+      "permanent_id": "1-2248461747",
+      "name": "Aravalli Engineering College",
+      "state": "Gujarat (demo)",
+      "established": 2008,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/29468/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-645291",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-946104",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2008-09",
+          "type": "New institution",
+          "ref": "NEW-2008-306251",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 23.0122,
+      "longitude": 72.6252
+    },
+    "INST-GJ-9004": {
+      "permanent_id": "1-1733295235",
+      "name": "Deccan Institute of Engineering and Technology",
+      "state": "Gujarat (demo)",
+      "established": 2013,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/62318/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-135811",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-304990",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2013-14",
+          "type": "New institution",
+          "ref": "NEW-2013-778670",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 23.0224,
+      "longitude": 72.545
+    },
+    "INST-GJ-9005": {
+      "permanent_id": "1-5632804335",
+      "name": "Konkan College of Engineering",
+      "state": "Gujarat (demo)",
+      "established": 2004,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/71302/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-285558",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-441614",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2004-05",
+          "type": "New institution",
+          "ref": "NEW-2004-644562",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 23.0838,
+      "longitude": 72.5581
+    },
+    "INST-GJ-9006": {
+      "permanent_id": "1-5968242608",
+      "name": "Malabar Institute of Engineering and Technology",
+      "state": "Gujarat (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/83771/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PENDING",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-381123",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-802868",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-682729",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 23.0224,
+      "longitude": 72.6276
+    },
+    "INST-MH-9007": {
+      "permanent_id": "1-2100044556",
+      "name": "Brahmaputra Institute of Technology",
+      "state": "Maharashtra (demo)",
+      "established": 1995,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/13011/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-424973",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-228996",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1995-96",
+          "type": "New institution",
+          "ref": "NEW-1995-198429",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.4597,
+      "longitude": 73.861
+    },
+    "INST-UP-9008": {
+      "permanent_id": "1-9262366142",
+      "name": "Satpura Institute of Technology",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2007,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/53325/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-403621",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-862447",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2007-08",
+          "type": "New institution",
+          "ref": "NEW-2007-906512",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.8013,
+      "longitude": 80.9968
+    },
+    "INST-KL-9009": {
+      "permanent_id": "1-8111606156",
+      "name": "Nilgiri Institute of Technology",
+      "state": "Kerala (demo)",
+      "established": 1995,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/65179/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-794779",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-330230",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1995-96",
+          "type": "New institution",
+          "ref": "NEW-1995-912549",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.9846,
+      "longitude": 76.3335
+    },
+    "INST-MH-9010": {
+      "permanent_id": "1-9753181212",
+      "name": "Godavari Engineering College",
+      "state": "Maharashtra (demo)",
+      "established": 2011,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/92294/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-354601",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-593402",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2011-12",
+          "type": "New institution",
+          "ref": "NEW-2011-161128",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.4613,
+      "longitude": 73.9356
+    },
+    "INST-MH-9011": {
+      "permanent_id": "1-7788538117",
+      "name": "Tapti Institute of Engineering and Technology",
+      "state": "Maharashtra (demo)",
+      "established": 2001,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/63520/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 8,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-934002",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-139328",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2001-02",
+          "type": "New institution",
+          "ref": "NEW-2001-770162",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.5892,
+      "longitude": 73.8684
+    },
+    "INST-KL-9012": {
+      "permanent_id": "1-8441356929",
+      "name": "Mahanadi College of Engineering",
+      "state": "Kerala (demo)",
+      "established": 2005,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/48392/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-409635",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-667452",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2005-06",
+          "type": "New institution",
+          "ref": "NEW-2005-399451",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.9481,
+      "longitude": 76.3245
+    },
+    "INST-KA-9013": {
+      "permanent_id": "1-4810462532",
+      "name": "Chambal Institute of Engineering and Technology",
+      "state": "Karnataka (demo)",
+      "established": 2011,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/49668/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-326693",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-657980",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2011-12",
+          "type": "New institution",
+          "ref": "NEW-2011-261717",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 12.9442,
+      "longitude": 77.5908
+    },
+    "INST-MH-9014": {
+      "permanent_id": "1-8796570265",
+      "name": "Sabari Engineering College",
+      "state": "Maharashtra (demo)",
+      "established": 2013,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/44773/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-889884",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-794270",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2013-14",
+          "type": "New institution",
+          "ref": "NEW-2013-337028",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.5259,
+      "longitude": 73.84
+    },
+    "INST-GJ-9015": {
+      "permanent_id": "1-7828410750",
+      "name": "Pamba Institute of Engineering and Technology",
+      "state": "Gujarat (demo)",
+      "established": 2001,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/68254/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-376428",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-252423",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2001-02",
+          "type": "New institution",
+          "ref": "NEW-2001-671596",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 23.0581,
+      "longitude": 72.6201
+    },
+    "INST-KL-9016": {
+      "permanent_id": "1-9258767211",
+      "name": "Tungabhadra Institute of Engineering and Technology",
+      "state": "Kerala (demo)",
+      "established": 2015,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/32671/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PENDING",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 30,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-111026",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-380027",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2015-16",
+          "type": "New institution",
+          "ref": "NEW-2015-686071",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 10.0039,
+      "longitude": 76.2031
+    },
+    "INST-TN-9017": {
+      "permanent_id": "1-2586708377",
+      "name": "Krishna Valley College of Engineering",
+      "state": "Tamil Nadu (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/89440/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-805841",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-279073",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-839787",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 13.0548,
+      "longitude": 80.2924
+    },
+    "INST-KA-9018": {
+      "permanent_id": "1-7355230580",
+      "name": "Shivalik College of Engineering",
+      "state": "Karnataka (demo)",
+      "established": 2010,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/73003/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-948246",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-483975",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2010-11",
+          "type": "New institution",
+          "ref": "NEW-2010-366183",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 12.9504,
+      "longitude": 77.5374
+    },
+    "INST-TN-9019": {
+      "permanent_id": "1-7854040167",
+      "name": "Vaigai Institute of Engineering and Technology",
+      "state": "Tamil Nadu (demo)",
+      "established": 2010,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/43749/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-653640",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-645828",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2010-11",
+          "type": "New institution",
+          "ref": "NEW-2010-501424",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 13.0464,
+      "longitude": 80.2671
+    },
+    "INST-MH-9020": {
+      "permanent_id": "1-8090458259",
+      "name": "Vindhya Engineering College South",
+      "state": "Maharashtra (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/97378/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PENDING",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 14,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-136200",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-393986",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-927862",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.5482,
+      "longitude": 73.7914
+    },
+    "INST-UP-9021": {
+      "permanent_id": "1-7505060630",
+      "name": "Kaveri Engineering College South",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/10991/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-160994",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-199254",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-470174",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.7677,
+      "longitude": 80.9677
+    },
+    "INST-KA-9022": {
+      "permanent_id": "1-7112500925",
+      "name": "Narmada College of Engineering South",
+      "state": "Karnataka (demo)",
+      "established": 2006,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/37663/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 30,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-874952",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-304940",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2006-07",
+          "type": "New institution",
+          "ref": "NEW-2006-221480",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 12.9224,
+      "longitude": 77.5396
+    },
+    "INST-KL-9023": {
+      "permanent_id": "1-6863605366",
+      "name": "Aravalli College of Engineering South",
+      "state": "Kerala (demo)",
+      "established": 1995,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/83354/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 30,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-333404",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-476433",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1995-96",
+          "type": "New institution",
+          "ref": "NEW-1995-578168",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.9762,
+      "longitude": 76.3359
+    },
+    "INST-KL-9024": {
+      "permanent_id": "1-3534926235",
+      "name": "Deccan Institute of Technology South",
+      "state": "Kerala (demo)",
+      "established": 1997,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/80881/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-123033",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-260540",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1997-98",
+          "type": "New institution",
+          "ref": "NEW-1997-433880",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.9539,
+      "longitude": 76.3182
+    },
+    "INST-GJ-9025": {
+      "permanent_id": "1-3021988496",
+      "name": "Konkan Institute of Engineering and Technology South",
+      "state": "Gujarat (demo)",
+      "established": 2005,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/15411/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [
+        "Library area shortfall noted in 2025-26 scrutiny"
+      ],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-612705",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-361327",
+          "outcome": "Approved with conditions",
+          "remarks": "Library area shortfall to be closed within one year"
+        },
+        {
+          "academic_year": "2005-06",
+          "type": "New institution",
+          "ref": "NEW-2005-724624",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 23.0583,
+      "longitude": 72.4968
+    },
+    "INST-UP-9026": {
+      "permanent_id": "1-2265608051",
+      "name": "Malabar Institute of Technology South",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2011,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/79517/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-228101",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-690085",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2011-12",
+          "type": "New institution",
+          "ref": "NEW-2011-486386",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.9261,
+      "longitude": 80.993
+    },
+    "INST-KA-9027": {
+      "permanent_id": "1-9212705772",
+      "name": "Brahmaputra Institute of Technology South",
+      "state": "Karnataka (demo)",
+      "established": 1997,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/82050/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-799415",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-137301",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1997-98",
+          "type": "New institution",
+          "ref": "NEW-1997-472945",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 13.041,
+      "longitude": 77.5676
+    },
+    "INST-KA-9028": {
+      "permanent_id": "1-2113864277",
+      "name": "Satpura Institute of Technology South",
+      "state": "Karnataka (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/39923/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [
+        "Library area shortfall noted in 2025-26 scrutiny"
+      ],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 14,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-662833",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-512069",
+          "outcome": "Approved with conditions",
+          "remarks": "Library area shortfall to be closed within one year"
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-586563",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 12.9507,
+      "longitude": 77.6397
+    },
+    "INST-KL-9029": {
+      "permanent_id": "1-3815687097",
+      "name": "Nilgiri College of Engineering South",
+      "state": "Kerala (demo)",
+      "established": 2009,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/72175/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 30,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-827122",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-256221",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2009-10",
+          "type": "New institution",
+          "ref": "NEW-2009-820068",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.9099,
+      "longitude": 76.3272
+    },
+    "INST-GJ-9030": {
+      "permanent_id": "1-9680183411",
+      "name": "Godavari Institute of Engineering and Technology South",
+      "state": "Gujarat (demo)",
+      "established": 2003,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/79632/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [
+        "Library area shortfall noted in 2025-26 scrutiny"
+      ],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 30,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-110994",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-129939",
+          "outcome": "Approved with conditions",
+          "remarks": "Library area shortfall to be closed within one year"
+        },
+        {
+          "academic_year": "2003-04",
+          "type": "New institution",
+          "ref": "NEW-2003-459190",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 22.9745,
+      "longitude": 72.5752
+    },
+    "INST-KA-9031": {
+      "permanent_id": "1-9333444506",
+      "name": "Tapti Institute of Technology South",
+      "state": "Karnataka (demo)",
+      "established": 1995,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/22613/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 30,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-338471",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-972359",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1995-96",
+          "type": "New institution",
+          "ref": "NEW-1995-440536",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 12.9443,
+      "longitude": 77.6615
+    },
+    "INST-MH-9032": {
+      "permanent_id": "1-9569115838",
+      "name": "Mahanadi College of Engineering South",
+      "state": "Maharashtra (demo)",
+      "established": 2002,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/26836/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-730773",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-451523",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2002-03",
+          "type": "New institution",
+          "ref": "NEW-2002-775848",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 18.4601,
+      "longitude": 73.8251
+    },
+    "INST-KL-9033": {
+      "permanent_id": "1-8935922126",
+      "name": "Chambal Institute of Engineering and Technology South",
+      "state": "Kerala (demo)",
+      "established": 2013,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/54228/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 6,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-689059",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-412419",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2013-14",
+          "type": "New institution",
+          "ref": "NEW-2013-977047",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.8723,
+      "longitude": 76.2803
+    },
+    "INST-UP-9034": {
+      "permanent_id": "1-4437462172",
+      "name": "Sabari Engineering College South",
+      "state": "Uttar Pradesh (demo)",
+      "established": 2012,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/74294/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-747782",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-512716",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2012-13",
+          "type": "New institution",
+          "ref": "NEW-2012-595853",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.7817,
+      "longitude": 81.022
+    },
+    "INST-TN-9035": {
+      "permanent_id": "1-3689732331",
+      "name": "Pamba Engineering College South",
+      "state": "Tamil Nadu (demo)",
+      "established": 2008,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/70414/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 25,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-757813",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-533977",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2008-09",
+          "type": "New institution",
+          "ref": "NEW-2008-204379",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 13.0983,
+      "longitude": 80.2479
+    },
+    "INST-UP-9036": {
+      "permanent_id": "1-1562387933",
+      "name": "Tungabhadra Engineering College South",
+      "state": "Uttar Pradesh (demo)",
+      "established": 1995,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/56078/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-883476",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-203329",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1995-96",
+          "type": "New institution",
+          "ref": "NEW-1995-149335",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.8754,
+      "longitude": 80.9952
+    },
+    "INST-KA-9037": {
+      "permanent_id": "1-8737521934",
+      "name": "Krishna Valley Institute of Technology South",
+      "state": "Karnataka (demo)",
+      "established": 1998,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/65957/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-999514",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-744813",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1998-99",
+          "type": "New institution",
+          "ref": "NEW-1998-706484",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 12.9487,
+      "longitude": 77.5629
+    },
+    "INST-UP-9038": {
+      "permanent_id": "1-6435189629",
+      "name": "Shivalik Institute of Engineering and Technology South",
+      "state": "Uttar Pradesh (demo)",
+      "established": 1998,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/93603/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 20,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-228747",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-793116",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "1998-99",
+          "type": "New institution",
+          "ref": "NEW-1998-452782",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 26.7727,
+      "longitude": 80.8796
+    },
+    "INST-KL-9039": {
+      "permanent_id": "1-3060745180",
+      "name": "Vaigai Engineering College South",
+      "state": "Kerala (demo)",
+      "established": 2006,
+      "approved_programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ],
+      "previous_eoa": {
+        "academic_year": "2026-27",
+        "letter_no": "F.No.EOA/81394/2026",
+        "status": "GRANTED"
+      },
+      "open_deficiencies": [],
+      "ter_payments": {
+        "2027-28": "PAID",
+        "2026-27": "PAID"
+      },
+      "faculty_on_record": 15,
+      "application_history": [
+        {
+          "academic_year": "2026-27",
+          "type": "Extension of Approval",
+          "ref": "EOA-2026-931756",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2025-26",
+          "type": "Extension of Approval",
+          "ref": "EOA-2025-157323",
+          "outcome": "Approved",
+          "remarks": ""
+        },
+        {
+          "academic_year": "2006-07",
+          "type": "New institution",
+          "ref": "NEW-2006-221798",
+          "outcome": "Approved",
+          "remarks": ""
+        }
+      ],
+      "latitude": 9.9507,
+      "longitude": 76.2224
+    }
+  },
+  "payment_transactions": {
+    "AICTE5770577141": {
+      "transaction_id": "AICTE5770577141",
+      "permanent_id": "1-4412870301",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE8400709593": {
+      "transaction_id": "AICTE8400709593",
+      "permanent_id": "1-3398120455",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE9582277738": {
+      "transaction_id": "AICTE9582277738",
+      "permanent_id": "1-7403928141",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE5145795381": {
+      "transaction_id": "AICTE5145795381",
+      "permanent_id": "1-8867701486",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE5317005189": {
+      "transaction_id": "AICTE5317005189",
+      "permanent_id": "1-2589690976",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7339476609": {
+      "transaction_id": "AICTE7339476609",
+      "permanent_id": "1-2248461747",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1591510462": {
+      "transaction_id": "AICTE1591510462",
+      "permanent_id": "1-1733295235",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE9068614754": {
+      "transaction_id": "AICTE9068614754",
+      "permanent_id": "1-5632804335",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7470912414": {
+      "transaction_id": "AICTE7470912414",
+      "permanent_id": "1-5968242608",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7846424594": {
+      "transaction_id": "AICTE7846424594",
+      "permanent_id": "1-2100044556",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1483603032": {
+      "transaction_id": "AICTE1483603032",
+      "permanent_id": "1-9262366142",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1100339029": {
+      "transaction_id": "AICTE1100339029",
+      "permanent_id": "1-8111606156",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE4698881837": {
+      "transaction_id": "AICTE4698881837",
+      "permanent_id": "1-9753181212",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE6984074986": {
+      "transaction_id": "AICTE6984074986",
+      "permanent_id": "1-7788538117",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE3217020808": {
+      "transaction_id": "AICTE3217020808",
+      "permanent_id": "1-8441356929",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE3781187083": {
+      "transaction_id": "AICTE3781187083",
+      "permanent_id": "1-4810462532",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2988599924": {
+      "transaction_id": "AICTE2988599924",
+      "permanent_id": "1-8796570265",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2715626004": {
+      "transaction_id": "AICTE2715626004",
+      "permanent_id": "1-7828410750",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE6448785199": {
+      "transaction_id": "AICTE6448785199",
+      "permanent_id": "1-9258767211",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2801892057": {
+      "transaction_id": "AICTE2801892057",
+      "permanent_id": "1-2586708377",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE8795106451": {
+      "transaction_id": "AICTE8795106451",
+      "permanent_id": "1-7355230580",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE3206245227": {
+      "transaction_id": "AICTE3206245227",
+      "permanent_id": "1-7854040167",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE3920261400": {
+      "transaction_id": "AICTE3920261400",
+      "permanent_id": "1-8090458259",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE4615552968": {
+      "transaction_id": "AICTE4615552968",
+      "permanent_id": "1-7505060630",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2837803275": {
+      "transaction_id": "AICTE2837803275",
+      "permanent_id": "1-7112500925",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7307414320": {
+      "transaction_id": "AICTE7307414320",
+      "permanent_id": "1-6863605366",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE3236875131": {
+      "transaction_id": "AICTE3236875131",
+      "permanent_id": "1-3534926235",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1024787672": {
+      "transaction_id": "AICTE1024787672",
+      "permanent_id": "1-2265608051",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE5576325071": {
+      "transaction_id": "AICTE5576325071",
+      "permanent_id": "1-9212705772",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2017416752": {
+      "transaction_id": "AICTE2017416752",
+      "permanent_id": "1-2113864277",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7997654981": {
+      "transaction_id": "AICTE7997654981",
+      "permanent_id": "1-3815687097",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1485907745": {
+      "transaction_id": "AICTE1485907745",
+      "permanent_id": "1-9680183411",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7311454344": {
+      "transaction_id": "AICTE7311454344",
+      "permanent_id": "1-9333444506",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2041809544": {
+      "transaction_id": "AICTE2041809544",
+      "permanent_id": "1-9569115838",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1947264380": {
+      "transaction_id": "AICTE1947264380",
+      "permanent_id": "1-8935922126",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE6228466999": {
+      "transaction_id": "AICTE6228466999",
+      "permanent_id": "1-4437462172",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE2016601617": {
+      "transaction_id": "AICTE2016601617",
+      "permanent_id": "1-3689732331",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE5763014026": {
+      "transaction_id": "AICTE5763014026",
+      "permanent_id": "1-1562387933",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7271042775": {
+      "transaction_id": "AICTE7271042775",
+      "permanent_id": "1-8737521934",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE7804735749": {
+      "transaction_id": "AICTE7804735749",
+      "permanent_id": "1-6435189629",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "AICTE1247689275": {
+      "transaction_id": "AICTE1247689275",
+      "permanent_id": "1-3060745180",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    },
+    "TXN982341203": {
+      "transaction_id": "TXN982341203",
+      "permanent_id": "1-4412870301",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    }
+  }
+}

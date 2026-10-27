@@ -1,0 +1,5868 @@
+[
+  {
+    "institution_id": "INST-UP-9000",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Vindhya Engineering College",
+      "aicte_permanent_id": "1-7403928141",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 14600.0,
+      "classrooms": 10,
+      "labs": 13,
+      "faculty_count": 6,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9000",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "cloned_stamp",
+      "low_faculty"
+    ],
+    "expected_rules": [
+      "ANOM-COPYMOVE",
+      "INFRA-FACULTY"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Vindhya Engineering College",
+        "aicte_permanent_id": "1-7403928141",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-17",
+        "notary_reg_no": "UP/NOT/14444"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/91567",
+        "institution_name": "Vindhya Engineering College",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 14600.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/245",
+        "institution_name": "Vindhya Engineering College",
+        "issue_date": "2015-04-16",
+        "built_up_area_sqm": 14600.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/25992",
+        "institution_name": "Vindhya Engineering College",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/8484",
+        "institution_name": "Vindhya Engineering College",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8690/2026",
+        "institution_name": "Vindhya Engineering College",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE9582277738",
+        "institution_name": "Vindhya Engineering College",
+        "aicte_permanent_id": "1-7403928141",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9000"
+  },
+  {
+    "institution_id": "INST-KL-9001",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Kaveri Engineering College",
+      "aicte_permanent_id": "1-8867701486",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12050.0,
+      "classrooms": 14,
+      "labs": 17,
+      "faculty_count": 10,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9001",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "area_mismatch",
+      "edited_after_signing",
+      "low_faculty"
+    ],
+    "expected_rules": [
+      "EOA-CON-04",
+      "INFRA-FACULTY",
+      "VER-REPOSITORY",
+      "VER-SIGNATURE"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Kaveri Engineering College",
+        "aicte_permanent_id": "1-8867701486",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-16",
+        "notary_reg_no": "KL/NOT/74116"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/97018",
+        "institution_name": "Kaveri Engineering College",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 10550.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2014/424",
+        "institution_name": "Kaveri Engineering College",
+        "issue_date": "2015-02-15",
+        "built_up_area_sqm": 10550.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/67468",
+        "institution_name": "Kaveri Engineering College",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/9440",
+        "institution_name": "Kaveri Engineering College",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/5240/2026",
+        "institution_name": "Kaveri Engineering College",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE5145795381",
+        "institution_name": "Kaveri Engineering College",
+        "aicte_permanent_id": "1-8867701486",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9001"
+  },
+  {
+    "institution_id": "INST-UP-9002",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Narmada Engineering College",
+      "aicte_permanent_id": "1-2589690976",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8150.0,
+      "classrooms": 11,
+      "labs": 10,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9002",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-DOC-03"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Narmada Engineering College",
+        "aicte_permanent_id": "1-2589690976",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-03",
+        "notary_reg_no": "UP/NOT/27056"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/42484",
+        "institution_name": "Narmada Engineering College",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 8150.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/45197",
+        "institution_name": "Narmada Engineering College",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/6853",
+        "institution_name": "Narmada Engineering College",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/3535/2026",
+        "institution_name": "Narmada Engineering College",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE5317005189",
+        "institution_name": "Narmada Engineering College",
+        "aicte_permanent_id": "1-2589690976",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9002"
+  },
+  {
+    "institution_id": "INST-GJ-9003",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Aravalli Engineering College",
+      "aicte_permanent_id": "1-2248461747",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 14450.0,
+      "classrooms": 16,
+      "labs": 16,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9003",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "cloned_stamp"
+    ],
+    "expected_rules": [
+      "ANOM-COPYMOVE"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Aravalli Engineering College",
+        "aicte_permanent_id": "1-2248461747",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-13",
+        "notary_reg_no": "GJ/NOT/14911"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/61032",
+        "institution_name": "Aravalli Engineering College",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 14450.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2010/953",
+        "institution_name": "Aravalli Engineering College",
+        "issue_date": "2015-06-12",
+        "built_up_area_sqm": 14450.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/13380",
+        "institution_name": "Aravalli Engineering College",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1419",
+        "institution_name": "Aravalli Engineering College",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/9362/2026",
+        "institution_name": "Aravalli Engineering College",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7339476609",
+        "institution_name": "Aravalli Engineering College",
+        "aicte_permanent_id": "1-2248461747",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9003"
+  },
+  {
+    "institution_id": "INST-GJ-9004",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Deccan Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-1733295235",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12450.0,
+      "classrooms": 11,
+      "labs": 18,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9004",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "area_mismatch",
+      "blurry_photo"
+    ],
+    "expected_rules": [
+      "EOA-CON-04",
+      "INFRA-PHOTO-BLUR"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-1733295235",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-06",
+        "notary_reg_no": "GJ/NOT/85964"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/81403",
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 10950.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/988",
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "issue_date": "2015-04-25",
+        "built_up_area_sqm": 10950.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/73417",
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1335",
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/3115/2026",
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1591510462",
+        "institution_name": "Deccan Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-1733295235",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9004"
+  },
+  {
+    "institution_id": "INST-GJ-9005",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Konkan College of Engineering",
+      "aicte_permanent_id": "1-5632804335",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 14350.0,
+      "classrooms": 16,
+      "labs": 14,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9005",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "id_mismatch_affidavit"
+    ],
+    "expected_rules": [
+      "EOA-CON-02"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Konkan College of Engineering",
+        "aicte_permanent_id": "1-5632804353",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-16",
+        "notary_reg_no": "GJ/NOT/16742"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/79107",
+        "institution_name": "Konkan College of Engineering",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 14350.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2014/935",
+        "institution_name": "Konkan College of Engineering",
+        "issue_date": "2015-04-04",
+        "built_up_area_sqm": 14350.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/40321",
+        "institution_name": "Konkan College of Engineering",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1080",
+        "institution_name": "Konkan College of Engineering",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2525/2026",
+        "institution_name": "Konkan College of Engineering",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE9068614754",
+        "institution_name": "Konkan College of Engineering",
+        "aicte_permanent_id": "1-5632804335",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9005"
+  },
+  {
+    "institution_id": "INST-GJ-9006",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Malabar Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-5968242608",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15250.0,
+      "classrooms": 13,
+      "labs": 14,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9006",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "id_mismatch_affidavit",
+      "missing_building",
+      "ter_unpaid"
+    ],
+    "expected_rules": [
+      "EOA-CON-02",
+      "EOA-DOC-03",
+      "EOA-REC-03"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Malabar Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-5968242680",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-05",
+        "notary_reg_no": "GJ/NOT/35565"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/22639",
+        "institution_name": "Malabar Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 15250.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/56694",
+        "institution_name": "Malabar Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/4039",
+        "institution_name": "Malabar Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2741/2026",
+        "institution_name": "Malabar Institute of Engineering and Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7470912414",
+        "institution_name": "Malabar Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-5968242608",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9006"
+  },
+  {
+    "institution_id": "INST-MH-9007",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Brahmaputra Institute of Technology",
+      "aicte_permanent_id": "1-2100044556",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8700.0,
+      "classrooms": 11,
+      "labs": 13,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-MH-9007",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "ay_mismatch_univ"
+    ],
+    "expected_rules": [
+      "EOA-CON-03"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Brahmaputra Institute of Technology",
+        "aicte_permanent_id": "1-2100044556",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-22",
+        "notary_reg_no": "MH/NOT/76560"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/55915",
+        "institution_name": "Brahmaputra Institute of Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 8700.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/721",
+        "institution_name": "Brahmaputra Institute of Technology",
+        "issue_date": "2015-01-21",
+        "built_up_area_sqm": 8700.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/62978",
+        "institution_name": "Brahmaputra Institute of Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/6178",
+        "institution_name": "Brahmaputra Institute of Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/4532/2026",
+        "institution_name": "Brahmaputra Institute of Technology",
+        "academic_year": "2026-27",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7846424594",
+        "institution_name": "Brahmaputra Institute of Technology",
+        "aicte_permanent_id": "1-2100044556",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9007"
+  },
+  {
+    "institution_id": "INST-UP-9008",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Satpura Institute of Technology",
+      "aicte_permanent_id": "1-9262366142",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 13550.0,
+      "classrooms": 10,
+      "labs": 14,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9008",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "tampered_fire"
+    ],
+    "expected_rules": [
+      "ANOM-FONT",
+      "ANOM-META",
+      "VER-MISMATCH"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Satpura Institute of Technology",
+        "aicte_permanent_id": "1-9262366142",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-26",
+        "notary_reg_no": "UP/NOT/39920"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/64609",
+        "institution_name": "Satpura Institute of Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 13550.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2015/699",
+        "institution_name": "Satpura Institute of Technology",
+        "issue_date": "2015-09-01",
+        "built_up_area_sqm": 13550.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/54890",
+        "institution_name": "Satpura Institute of Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/4234",
+        "institution_name": "Satpura Institute of Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/1919/2026",
+        "institution_name": "Satpura Institute of Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1483603032",
+        "institution_name": "Satpura Institute of Technology",
+        "aicte_permanent_id": "1-9262366142",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9008"
+  },
+  {
+    "institution_id": "INST-KL-9009",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Nilgiri Institute of Technology",
+      "aicte_permanent_id": "1-8111606156",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12900.0,
+      "classrooms": 16,
+      "labs": 13,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9009",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      }
+    ],
+    "faults": [
+      "missing_library_photo"
+    ],
+    "expected_rules": [
+      "INFRA-PHOTO-COVER"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Nilgiri Institute of Technology",
+        "aicte_permanent_id": "1-8111606156",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-05",
+        "notary_reg_no": "KL/NOT/72162"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/13724",
+        "institution_name": "Nilgiri Institute of Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 12900.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2018/800",
+        "institution_name": "Nilgiri Institute of Technology",
+        "issue_date": "2015-07-18",
+        "built_up_area_sqm": 12900.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/43419",
+        "institution_name": "Nilgiri Institute of Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/3419",
+        "institution_name": "Nilgiri Institute of Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/4739/2026",
+        "institution_name": "Nilgiri Institute of Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1100339029",
+        "institution_name": "Nilgiri Institute of Technology",
+        "aicte_permanent_id": "1-8111606156",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9009"
+  },
+  {
+    "institution_id": "INST-MH-9010",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Godavari Engineering College",
+      "aicte_permanent_id": "1-9753181212",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12050.0,
+      "classrooms": 10,
+      "labs": 10,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-MH-9010",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "edited_after_signing"
+    ],
+    "expected_rules": [
+      "VER-REPOSITORY",
+      "VER-SIGNATURE"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Godavari Engineering College",
+        "aicte_permanent_id": "1-9753181212",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-08",
+        "notary_reg_no": "MH/NOT/67665"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/29771",
+        "institution_name": "Godavari Engineering College",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 12050.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2016/824",
+        "institution_name": "Godavari Engineering College",
+        "issue_date": "2015-04-12",
+        "built_up_area_sqm": 12050.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/83608",
+        "institution_name": "Godavari Engineering College",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/5518",
+        "institution_name": "Godavari Engineering College",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/6630/2026",
+        "institution_name": "Godavari Engineering College",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE4698881837",
+        "institution_name": "Godavari Engineering College",
+        "aicte_permanent_id": "1-9753181212",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9010"
+  },
+  {
+    "institution_id": "INST-MH-9011",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Tapti Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-7788538117",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8050.0,
+      "classrooms": 15,
+      "labs": 18,
+      "faculty_count": 8,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-MH-9011",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "low_faculty",
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-DOC-03",
+      "INFRA-FACULTY"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Tapti Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-7788538117",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-06",
+        "notary_reg_no": "MH/NOT/40195"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/58862",
+        "institution_name": "Tapti Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 8050.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/12405",
+        "institution_name": "Tapti Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/9739",
+        "institution_name": "Tapti Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/4557/2026",
+        "institution_name": "Tapti Institute of Engineering and Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE6984074986",
+        "institution_name": "Tapti Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-7788538117",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9011"
+  },
+  {
+    "institution_id": "INST-KL-9012",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Mahanadi College of Engineering",
+      "aicte_permanent_id": "1-8441356929",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15550.0,
+      "classrooms": 13,
+      "labs": 12,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9012",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "tampered_fire"
+    ],
+    "expected_rules": [
+      "ANOM-FONT",
+      "ANOM-META",
+      "VER-MISMATCH"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Mahanadi College of Engineering",
+        "aicte_permanent_id": "1-8441356929",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-12",
+        "notary_reg_no": "KL/NOT/51936"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/34732",
+        "institution_name": "Mahanadi College of Engineering",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 15550.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2020/109",
+        "institution_name": "Mahanadi College of Engineering",
+        "issue_date": "2015-08-28",
+        "built_up_area_sqm": 15550.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/65397",
+        "institution_name": "Mahanadi College of Engineering",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/6827",
+        "institution_name": "Mahanadi College of Engineering",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/9804/2026",
+        "institution_name": "Mahanadi College of Engineering",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE3217020808",
+        "institution_name": "Mahanadi College of Engineering",
+        "aicte_permanent_id": "1-8441356929",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9012"
+  },
+  {
+    "institution_id": "INST-KA-9013",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Chambal Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-4810462532",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12750.0,
+      "classrooms": 11,
+      "labs": 15,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9013",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [],
+    "expected_rules": [],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-4810462532",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-20",
+        "notary_reg_no": "KA/NOT/33526"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/26583",
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 12750.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2015/596",
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "issue_date": "2015-02-04",
+        "built_up_area_sqm": 12750.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/59964",
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/5301",
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/5939/2026",
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE3781187083",
+        "institution_name": "Chambal Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-4810462532",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9013"
+  },
+  {
+    "institution_id": "INST-MH-9014",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Sabari Engineering College",
+      "aicte_permanent_id": "1-8796570265",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9100.0,
+      "classrooms": 17,
+      "labs": 14,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-MH-9014",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [],
+    "expected_rules": [],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Sabari Engineering College",
+        "aicte_permanent_id": "1-8796570265",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-06",
+        "notary_reg_no": "MH/NOT/57701"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/76358",
+        "institution_name": "Sabari Engineering College",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 9100.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2015/430",
+        "institution_name": "Sabari Engineering College",
+        "issue_date": "2015-08-24",
+        "built_up_area_sqm": 9100.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/62831",
+        "institution_name": "Sabari Engineering College",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/6139",
+        "institution_name": "Sabari Engineering College",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/3895/2026",
+        "institution_name": "Sabari Engineering College",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2988599924",
+        "institution_name": "Sabari Engineering College",
+        "aicte_permanent_id": "1-8796570265",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9014"
+  },
+  {
+    "institution_id": "INST-GJ-9015",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Pamba Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-7828410750",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9500.0,
+      "classrooms": 15,
+      "labs": 14,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9015",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "ay_mismatch_univ",
+      "id_mismatch_affidavit",
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-CON-02",
+      "EOA-CON-03",
+      "EOA-DOC-03"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Pamba Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-7828410705",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-21",
+        "notary_reg_no": "GJ/NOT/31709"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/53485",
+        "institution_name": "Pamba Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 9500.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/48465",
+        "institution_name": "Pamba Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/8504",
+        "institution_name": "Pamba Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/7573/2026",
+        "institution_name": "Pamba Institute of Engineering and Technology",
+        "academic_year": "2026-27",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2715626004",
+        "institution_name": "Pamba Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-7828410750",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9015"
+  },
+  {
+    "institution_id": "INST-KL-9016",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Tungabhadra Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-9258767211",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12200.0,
+      "classrooms": 10,
+      "labs": 16,
+      "faculty_count": 30,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9016",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "edited_after_signing",
+      "ter_unpaid"
+    ],
+    "expected_rules": [
+      "EOA-REC-03",
+      "VER-REPOSITORY",
+      "VER-SIGNATURE"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-9258767211",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-23",
+        "notary_reg_no": "KL/NOT/18117"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/53779",
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 12200.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2020/726",
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "issue_date": "2015-08-14",
+        "built_up_area_sqm": 12200.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/73296",
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/6550",
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/1192/2026",
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE6448785199",
+        "institution_name": "Tungabhadra Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-9258767211",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9016"
+  },
+  {
+    "institution_id": "INST-TN-9017",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Krishna Valley College of Engineering",
+      "aicte_permanent_id": "1-2586708377",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 10800.0,
+      "classrooms": 17,
+      "labs": 13,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-TN-9017",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "expired_fire",
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-DOC-03",
+      "EOA-VAL-01",
+      "VER-EXPIRED"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Krishna Valley College of Engineering",
+        "aicte_permanent_id": "1-2586708377",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-10",
+        "notary_reg_no": "TN/NOT/75399"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/TN/2024/64662",
+        "institution_name": "Krishna Valley College of Engineering",
+        "issue_date": "2024-04-01",
+        "valid_until": "2026-03-31",
+        "built_up_area_sqm": 10800.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/27465",
+        "institution_name": "Krishna Valley College of Engineering",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/2770",
+        "institution_name": "Krishna Valley College of Engineering",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/1463/2026",
+        "institution_name": "Krishna Valley College of Engineering",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2801892057",
+        "institution_name": "Krishna Valley College of Engineering",
+        "aicte_permanent_id": "1-2586708377",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9017"
+  },
+  {
+    "institution_id": "INST-KA-9018",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Shivalik College of Engineering",
+      "aicte_permanent_id": "1-7355230580",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 14250.0,
+      "classrooms": 12,
+      "labs": 10,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9018",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "tampered_fire"
+    ],
+    "expected_rules": [
+      "ANOM-FONT",
+      "ANOM-META",
+      "VER-MISMATCH"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Shivalik College of Engineering",
+        "aicte_permanent_id": "1-7355230580",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-27",
+        "notary_reg_no": "KA/NOT/27048"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/58174",
+        "institution_name": "Shivalik College of Engineering",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 14250.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2014/624",
+        "institution_name": "Shivalik College of Engineering",
+        "issue_date": "2015-07-27",
+        "built_up_area_sqm": 14250.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/49854",
+        "institution_name": "Shivalik College of Engineering",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/4576",
+        "institution_name": "Shivalik College of Engineering",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/1887/2026",
+        "institution_name": "Shivalik College of Engineering",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE8795106451",
+        "institution_name": "Shivalik College of Engineering",
+        "aicte_permanent_id": "1-7355230580",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9018"
+  },
+  {
+    "institution_id": "INST-TN-9019",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Vaigai Institute of Engineering and Technology",
+      "aicte_permanent_id": "1-7854040167",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8950.0,
+      "classrooms": 18,
+      "labs": 12,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-TN-9019",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      }
+    ],
+    "faults": [
+      "missing_library_photo"
+    ],
+    "expected_rules": [
+      "INFRA-PHOTO-COVER"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-7854040167",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-21",
+        "notary_reg_no": "TN/NOT/80869"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/TN/2024/38159",
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 8950.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/346",
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "issue_date": "2015-07-07",
+        "built_up_area_sqm": 8950.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/76589",
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/9627",
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/3072/2026",
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE3206245227",
+        "institution_name": "Vaigai Institute of Engineering and Technology",
+        "aicte_permanent_id": "1-7854040167",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9019"
+  },
+  {
+    "institution_id": "INST-MH-9020",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Vindhya Engineering College South",
+      "aicte_permanent_id": "1-8090458259",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9800.0,
+      "classrooms": 12,
+      "labs": 10,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-MH-9020",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "faculty_record_mismatch",
+      "ter_unpaid",
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-DOC-03",
+      "EOA-REC-03",
+      "EOA-REC-07"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Vindhya Engineering College South",
+        "aicte_permanent_id": "1-8090458259",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-10",
+        "notary_reg_no": "MH/NOT/19243"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/45069",
+        "institution_name": "Vindhya Engineering College South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 9800.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/34454",
+        "institution_name": "Vindhya Engineering College South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1878",
+        "institution_name": "Vindhya Engineering College South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/4041/2026",
+        "institution_name": "Vindhya Engineering College South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE3920261400",
+        "institution_name": "Vindhya Engineering College South",
+        "aicte_permanent_id": "1-8090458259",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9020"
+  },
+  {
+    "institution_id": "INST-UP-9021",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Kaveri Engineering College South",
+      "aicte_permanent_id": "1-7505060630",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 14500.0,
+      "classrooms": 10,
+      "labs": 17,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9021",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "blurry_photo",
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-DOC-03",
+      "INFRA-PHOTO-BLUR"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Kaveri Engineering College South",
+        "aicte_permanent_id": "1-7505060630",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-19",
+        "notary_reg_no": "UP/NOT/92549"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/43715",
+        "institution_name": "Kaveri Engineering College South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 14500.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/21803",
+        "institution_name": "Kaveri Engineering College South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/7927",
+        "institution_name": "Kaveri Engineering College South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8096/2026",
+        "institution_name": "Kaveri Engineering College South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE4615552968",
+        "institution_name": "Kaveri Engineering College South",
+        "aicte_permanent_id": "1-7505060630",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9021"
+  },
+  {
+    "institution_id": "INST-KA-9022",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Narmada College of Engineering South",
+      "aicte_permanent_id": "1-7112500925",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 16650.0,
+      "classrooms": 17,
+      "labs": 11,
+      "faculty_count": 30,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9022",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "area_mismatch"
+    ],
+    "expected_rules": [
+      "EOA-CON-04"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Narmada College of Engineering South",
+        "aicte_permanent_id": "1-7112500925",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-25",
+        "notary_reg_no": "KA/NOT/47391"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/99000",
+        "institution_name": "Narmada College of Engineering South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 15150.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2012/217",
+        "institution_name": "Narmada College of Engineering South",
+        "issue_date": "2015-04-06",
+        "built_up_area_sqm": 15150.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/94030",
+        "institution_name": "Narmada College of Engineering South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/8103",
+        "institution_name": "Narmada College of Engineering South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/4101/2026",
+        "institution_name": "Narmada College of Engineering South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2837803275",
+        "institution_name": "Narmada College of Engineering South",
+        "aicte_permanent_id": "1-7112500925",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9022"
+  },
+  {
+    "institution_id": "INST-KL-9023",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Aravalli College of Engineering South",
+      "aicte_permanent_id": "1-6863605366",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9750.0,
+      "classrooms": 11,
+      "labs": 12,
+      "faculty_count": 30,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9023",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      }
+    ],
+    "faults": [
+      "id_mismatch_affidavit",
+      "missing_library_photo"
+    ],
+    "expected_rules": [
+      "EOA-CON-02",
+      "INFRA-PHOTO-COVER"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Aravalli College of Engineering South",
+        "aicte_permanent_id": "1-6863605369",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-13",
+        "notary_reg_no": "KL/NOT/83974"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/87730",
+        "institution_name": "Aravalli College of Engineering South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 9750.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2020/673",
+        "institution_name": "Aravalli College of Engineering South",
+        "issue_date": "2015-05-11",
+        "built_up_area_sqm": 9750.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/99394",
+        "institution_name": "Aravalli College of Engineering South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/2291",
+        "institution_name": "Aravalli College of Engineering South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8552/2026",
+        "institution_name": "Aravalli College of Engineering South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7307414320",
+        "institution_name": "Aravalli College of Engineering South",
+        "aicte_permanent_id": "1-6863605366",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9023"
+  },
+  {
+    "institution_id": "INST-KL-9024",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Deccan Institute of Technology South",
+      "aicte_permanent_id": "1-3534926235",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15350.0,
+      "classrooms": 17,
+      "labs": 17,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9024",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "cloned_stamp",
+      "missing_building"
+    ],
+    "expected_rules": [
+      "ANOM-COPYMOVE",
+      "EOA-DOC-03"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Deccan Institute of Technology South",
+        "aicte_permanent_id": "1-3534926235",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-05",
+        "notary_reg_no": "KL/NOT/14782"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/61358",
+        "institution_name": "Deccan Institute of Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 15350.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/12390",
+        "institution_name": "Deccan Institute of Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1756",
+        "institution_name": "Deccan Institute of Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2165/2026",
+        "institution_name": "Deccan Institute of Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE3236875131",
+        "institution_name": "Deccan Institute of Technology South",
+        "aicte_permanent_id": "1-3534926235",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9024"
+  },
+  {
+    "institution_id": "INST-GJ-9025",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Konkan Institute of Engineering and Technology South",
+      "aicte_permanent_id": "1-3021988496",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 14550.0,
+      "classrooms": 15,
+      "labs": 16,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9025",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "fake_ter",
+      "open_deficiency"
+    ],
+    "expected_rules": [
+      "EOA-REC-04",
+      "VER-MISMATCH"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-3021988496",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-06",
+        "notary_reg_no": "GJ/NOT/25720"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/24905",
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 14550.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/704",
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "issue_date": "2015-08-13",
+        "built_up_area_sqm": 14550.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/79456",
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1267",
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/9174/2026",
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE5060625197",
+        "institution_name": "Konkan Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-3021988496",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9025"
+  },
+  {
+    "institution_id": "INST-UP-9026",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Malabar Institute of Technology South",
+      "aicte_permanent_id": "1-2265608051",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15700.0,
+      "classrooms": 18,
+      "labs": 12,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9026",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "cloned_stamp",
+      "expired_fire"
+    ],
+    "expected_rules": [
+      "ANOM-COPYMOVE",
+      "EOA-VAL-01",
+      "VER-EXPIRED"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Malabar Institute of Technology South",
+        "aicte_permanent_id": "1-2265608051",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-26",
+        "notary_reg_no": "UP/NOT/77882"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/19958",
+        "institution_name": "Malabar Institute of Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2026-03-31",
+        "built_up_area_sqm": 15700.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2018/274",
+        "institution_name": "Malabar Institute of Technology South",
+        "issue_date": "2015-07-15",
+        "built_up_area_sqm": 15700.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/24556",
+        "institution_name": "Malabar Institute of Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/2731",
+        "institution_name": "Malabar Institute of Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/7814/2026",
+        "institution_name": "Malabar Institute of Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1024787672",
+        "institution_name": "Malabar Institute of Technology South",
+        "aicte_permanent_id": "1-2265608051",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9026"
+  },
+  {
+    "institution_id": "INST-KA-9027",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Brahmaputra Institute of Technology South",
+      "aicte_permanent_id": "1-9212705772",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15150.0,
+      "classrooms": 11,
+      "labs": 17,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9027",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [],
+    "expected_rules": [],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "aicte_permanent_id": "1-9212705772",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-23",
+        "notary_reg_no": "KA/NOT/68566"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/92638",
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 15150.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2013/766",
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "issue_date": "2015-08-21",
+        "built_up_area_sqm": 15150.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/16162",
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/5772",
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2492/2026",
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE5576325071",
+        "institution_name": "Brahmaputra Institute of Technology South",
+        "aicte_permanent_id": "1-9212705772",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9027"
+  },
+  {
+    "institution_id": "INST-KA-9028",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Satpura Institute of Technology South",
+      "aicte_permanent_id": "1-2113864277",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8650.0,
+      "classrooms": 18,
+      "labs": 15,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9028",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "cloned_stamp",
+      "faculty_record_mismatch",
+      "open_deficiency"
+    ],
+    "expected_rules": [
+      "ANOM-COPYMOVE",
+      "EOA-REC-04",
+      "EOA-REC-07"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Satpura Institute of Technology South",
+        "aicte_permanent_id": "1-2113864277",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-03",
+        "notary_reg_no": "KA/NOT/05121"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/11983",
+        "institution_name": "Satpura Institute of Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 8650.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2016/669",
+        "institution_name": "Satpura Institute of Technology South",
+        "issue_date": "2015-08-03",
+        "built_up_area_sqm": 8650.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/98456",
+        "institution_name": "Satpura Institute of Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/3924",
+        "institution_name": "Satpura Institute of Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/3811/2026",
+        "institution_name": "Satpura Institute of Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2017416752",
+        "institution_name": "Satpura Institute of Technology South",
+        "aicte_permanent_id": "1-2113864277",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9028"
+  },
+  {
+    "institution_id": "INST-KL-9029",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Nilgiri College of Engineering South",
+      "aicte_permanent_id": "1-3815687097",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9650.0,
+      "classrooms": 18,
+      "labs": 13,
+      "faculty_count": 30,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9029",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "old_affidavit"
+    ],
+    "expected_rules": [
+      "EOA-VAL-04"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Nilgiri College of Engineering South",
+        "aicte_permanent_id": "1-3815687097",
+        "academic_year": "2027-28",
+        "issue_date": "2026-01-02",
+        "notary_reg_no": "KL/NOT/43256"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/33030",
+        "institution_name": "Nilgiri College of Engineering South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 9650.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2018/218",
+        "institution_name": "Nilgiri College of Engineering South",
+        "issue_date": "2015-01-05",
+        "built_up_area_sqm": 9650.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/59747",
+        "institution_name": "Nilgiri College of Engineering South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/2467",
+        "institution_name": "Nilgiri College of Engineering South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/9159/2026",
+        "institution_name": "Nilgiri College of Engineering South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7997654981",
+        "institution_name": "Nilgiri College of Engineering South",
+        "aicte_permanent_id": "1-3815687097",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9029"
+  },
+  {
+    "institution_id": "INST-GJ-9030",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Godavari Institute of Engineering and Technology South",
+      "aicte_permanent_id": "1-9680183411",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15350.0,
+      "classrooms": 12,
+      "labs": 14,
+      "faculty_count": 30,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-GJ-9030",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "dup_photos",
+      "open_deficiency"
+    ],
+    "expected_rules": [
+      "EOA-REC-04",
+      "INFRA-PHOTO-DUP"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-9680183411",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-24",
+        "notary_reg_no": "GJ/NOT/94642"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/GJ/2024/70055",
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 15350.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2011/348",
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "issue_date": "2015-08-22",
+        "built_up_area_sqm": 15350.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/30858",
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/9234",
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8833/2026",
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1485907745",
+        "institution_name": "Godavari Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-9680183411",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9030"
+  },
+  {
+    "institution_id": "INST-KA-9031",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Tapti Institute of Technology South",
+      "aicte_permanent_id": "1-9333444506",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8050.0,
+      "classrooms": 17,
+      "labs": 11,
+      "faculty_count": 30,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9031",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-DOC-03"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Tapti Institute of Technology South",
+        "aicte_permanent_id": "1-9333444506",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-15",
+        "notary_reg_no": "KA/NOT/51489"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/45875",
+        "institution_name": "Tapti Institute of Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 8050.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/42887",
+        "institution_name": "Tapti Institute of Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/8306",
+        "institution_name": "Tapti Institute of Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/7724/2026",
+        "institution_name": "Tapti Institute of Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7311454344",
+        "institution_name": "Tapti Institute of Technology South",
+        "aicte_permanent_id": "1-9333444506",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9031"
+  },
+  {
+    "institution_id": "INST-MH-9032",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Mahanadi College of Engineering South",
+      "aicte_permanent_id": "1-9569115838",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9250.0,
+      "classrooms": 13,
+      "labs": 16,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-MH-9032",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "intake_exceeds"
+    ],
+    "expected_rules": [
+      "EOA-REC-06"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Mahanadi College of Engineering South",
+        "aicte_permanent_id": "1-9569115838",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-18",
+        "notary_reg_no": "MH/NOT/28219"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/90795",
+        "institution_name": "Mahanadi College of Engineering South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 9250.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2014/655",
+        "institution_name": "Mahanadi College of Engineering South",
+        "issue_date": "2015-07-18",
+        "built_up_area_sqm": 9250.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/44557",
+        "institution_name": "Mahanadi College of Engineering South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/6695",
+        "institution_name": "Mahanadi College of Engineering South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8408/2026",
+        "institution_name": "Mahanadi College of Engineering South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2041809544",
+        "institution_name": "Mahanadi College of Engineering South",
+        "aicte_permanent_id": "1-9569115838",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9032"
+  },
+  {
+    "institution_id": "INST-KL-9033",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Chambal Institute of Engineering and Technology South",
+      "aicte_permanent_id": "1-8935922126",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 11900.0,
+      "classrooms": 10,
+      "labs": 18,
+      "faculty_count": 6,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9033",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "low_faculty",
+      "tampered_fire"
+    ],
+    "expected_rules": [
+      "ANOM-FONT",
+      "ANOM-META",
+      "INFRA-FACULTY",
+      "VER-MISMATCH"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-8935922126",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-14",
+        "notary_reg_no": "KL/NOT/91592"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/92501",
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 11900.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2018/949",
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "issue_date": "2015-05-17",
+        "built_up_area_sqm": 11900.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/97140",
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/9290",
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/6737/2026",
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1947264380",
+        "institution_name": "Chambal Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-8935922126",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9033"
+  },
+  {
+    "institution_id": "INST-UP-9034",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Sabari Engineering College South",
+      "aicte_permanent_id": "1-4437462172",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 11000.0,
+      "classrooms": 13,
+      "labs": 12,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9034",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "expired_fire"
+    ],
+    "expected_rules": [
+      "EOA-VAL-01",
+      "VER-EXPIRED"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Sabari Engineering College South",
+        "aicte_permanent_id": "1-4437462172",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-27",
+        "notary_reg_no": "UP/NOT/58074"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/77246",
+        "institution_name": "Sabari Engineering College South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2026-03-31",
+        "built_up_area_sqm": 11000.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2013/482",
+        "institution_name": "Sabari Engineering College South",
+        "issue_date": "2015-09-01",
+        "built_up_area_sqm": 11000.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/21085",
+        "institution_name": "Sabari Engineering College South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/2662",
+        "institution_name": "Sabari Engineering College South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2915/2026",
+        "institution_name": "Sabari Engineering College South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE6228466999",
+        "institution_name": "Sabari Engineering College South",
+        "aicte_permanent_id": "1-4437462172",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9034"
+  },
+  {
+    "institution_id": "INST-TN-9035",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Pamba Engineering College South",
+      "aicte_permanent_id": "1-3689732331",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8800.0,
+      "classrooms": 15,
+      "labs": 12,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-TN-9035",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "expired_fire"
+    ],
+    "expected_rules": [
+      "EOA-VAL-01",
+      "VER-EXPIRED"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Pamba Engineering College South",
+        "aicte_permanent_id": "1-3689732331",
+        "academic_year": "2027-28",
+        "issue_date": "2026-07-21",
+        "notary_reg_no": "TN/NOT/25992"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/TN/2024/82673",
+        "institution_name": "Pamba Engineering College South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2026-03-31",
+        "built_up_area_sqm": 8800.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/449",
+        "institution_name": "Pamba Engineering College South",
+        "issue_date": "2015-03-20",
+        "built_up_area_sqm": 8800.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/26333",
+        "institution_name": "Pamba Engineering College South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/2418",
+        "institution_name": "Pamba Engineering College South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/6675/2026",
+        "institution_name": "Pamba Engineering College South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2016601617",
+        "institution_name": "Pamba Engineering College South",
+        "aicte_permanent_id": "1-3689732331",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9035"
+  },
+  {
+    "institution_id": "INST-UP-9036",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Tungabhadra Engineering College South",
+      "aicte_permanent_id": "1-1562387933",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 10250.0,
+      "classrooms": 17,
+      "labs": 17,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9036",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "area_mismatch",
+      "old_affidavit"
+    ],
+    "expected_rules": [
+      "EOA-CON-04",
+      "EOA-VAL-04"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Tungabhadra Engineering College South",
+        "aicte_permanent_id": "1-1562387933",
+        "academic_year": "2027-28",
+        "issue_date": "2026-01-02",
+        "notary_reg_no": "UP/NOT/54431"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/33777",
+        "institution_name": "Tungabhadra Engineering College South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 8750.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2020/170",
+        "institution_name": "Tungabhadra Engineering College South",
+        "issue_date": "2015-09-09",
+        "built_up_area_sqm": 8750.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/78678",
+        "institution_name": "Tungabhadra Engineering College South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/5064",
+        "institution_name": "Tungabhadra Engineering College South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/7956/2026",
+        "institution_name": "Tungabhadra Engineering College South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE5763014026",
+        "institution_name": "Tungabhadra Engineering College South",
+        "aicte_permanent_id": "1-1562387933",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9036"
+  },
+  {
+    "institution_id": "INST-KA-9037",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Krishna Valley Institute of Technology South",
+      "aicte_permanent_id": "1-8737521934",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9050.0,
+      "classrooms": 14,
+      "labs": 15,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KA-9037",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "old_affidavit"
+    ],
+    "expected_rules": [
+      "EOA-VAL-04"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "aicte_permanent_id": "1-8737521934",
+        "academic_year": "2027-28",
+        "issue_date": "2026-01-02",
+        "notary_reg_no": "KA/NOT/41733"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KA/2024/40662",
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 9050.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2019/636",
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "issue_date": "2015-09-06",
+        "built_up_area_sqm": 9050.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/64927",
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/5146",
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/1557/2026",
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7271042775",
+        "institution_name": "Krishna Valley Institute of Technology South",
+        "aicte_permanent_id": "1-8737521934",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9037"
+  },
+  {
+    "institution_id": "INST-UP-9038",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Shivalik Institute of Engineering and Technology South",
+      "aicte_permanent_id": "1-6435189629",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 10500.0,
+      "classrooms": 15,
+      "labs": 15,
+      "faculty_count": 20,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-UP-9038",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "expired_fire"
+    ],
+    "expected_rules": [
+      "EOA-VAL-01",
+      "VER-EXPIRED"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-6435189629",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-13",
+        "notary_reg_no": "UP/NOT/56614"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/90251",
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2026-03-31",
+        "built_up_area_sqm": 10500.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/723",
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "issue_date": "2015-02-13",
+        "built_up_area_sqm": 10500.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/58841",
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/8054",
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8420/2026",
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE7804735749",
+        "institution_name": "Shivalik Institute of Engineering and Technology South",
+        "aicte_permanent_id": "1-6435189629",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9038"
+  },
+  {
+    "institution_id": "INST-KL-9039",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Vaigai Engineering College South",
+      "aicte_permanent_id": "1-3060745180",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 8250.0,
+      "classrooms": 14,
+      "labs": 18,
+      "faculty_count": 15,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/eval_docs/INST-KL-9039",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [],
+    "expected_rules": [],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Vaigai Engineering College South",
+        "aicte_permanent_id": "1-3060745180",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-25",
+        "notary_reg_no": "KL/NOT/57591"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/KL/2024/44291",
+        "institution_name": "Vaigai Engineering College South",
+        "issue_date": "2024-04-01",
+        "valid_until": "2029-03-31",
+        "built_up_area_sqm": 8250.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2014/985",
+        "institution_name": "Vaigai Engineering College South",
+        "issue_date": "2015-05-23",
+        "built_up_area_sqm": 8250.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/10292",
+        "institution_name": "Vaigai Engineering College South",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/4379",
+        "institution_name": "Vaigai Engineering College South",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/4576/2026",
+        "institution_name": "Vaigai Engineering College South",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE1247689275",
+        "institution_name": "Vaigai Engineering College South",
+        "aicte_permanent_id": "1-3060745180",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "inst9039"
+  }
+]

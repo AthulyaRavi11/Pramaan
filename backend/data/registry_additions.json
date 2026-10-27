@@ -1,0 +1,72 @@
+{
+  "_about": "Registry entries for the hand-made certificates in synthetic_test_certificates/. generate_synthetic.py merges this file into authority_registry.json and aicte_records.json every time it runs, so these survive regeneration. All values are synthetic.",
+  "authority_registry": {
+    "municipal_records": {
+      "BCC/MD/2025/1102": {
+        "certificate_no": "BCC/MD/2025/1102",
+        "institution_name": "Coromandel Institute of Technology",
+        "issue_date": "2025-01-20",
+        "status": "VALID"
+      },
+      "BP/SAN/2024/8831": {
+        "certificate_no": "BP/SAN/2024/8831",
+        "institution_name": "Coromandel Institute of Technology",
+        "issue_date": "2024-03-15",
+        "status": "VALID"
+      },
+      "BP/MD/2024/9021": {
+        "certificate_no": "BP/MD/2024/9021",
+        "institution_name": "Coromandel Institute of Technology",
+        "sanctioned_area_sqm": 18500.0,
+        "issue_date": "2024-11-15",
+        "status": "VALID"
+      }
+    },
+    "affiliating_university": {
+      "UNIV/AFF/2322/2026": {
+        "valid_sha256s": [
+          "189e8adfc50a283dedcd6f8b609eeb64513ca6b41835c60b07d595623c81a051"
+        ]
+      }
+    },
+    "state_land_records": {
+      "DOC/CH/2018/7742": {
+        "registration_no": "DOC/CH/2018/7742",
+        "survey_number": "SY-402/1A, SY-402/1B",
+        "land_area_acres": "10.5",
+        "institution_name": "Coromandel Institute of Technology",
+        "status": "REGISTERED"
+      },
+      "TP/LU/2019/3318": {
+        "certificate_no": "TP/LU/2019/3318",
+        "survey_number": "SY-402/1A, SY-402/1B",
+        "institution_name": "Coromandel Institute of Technology",
+        "status": "VALID"
+      }
+    },
+    "digilocker_nad": {
+      "25214567ABCDEF1234": {
+        "udin": "25214567ABCDEF1234",
+        "institution_name": "Coromandel Institute of Technology",
+        "financial_year": "2025-26",
+        "status": "VALID"
+      }
+    },
+    "state_fire_services": {
+      "FSN/TN/2023/31877": {
+        "certificate_no": "FSN/TN/2023/31877",
+        "institution_name": "Coromandel Institute of Technology",
+        "valid_until": "2026-03-31",
+        "status": "VALID"
+      }
+    }
+  },
+  "payment_transactions": {
+    "TXN982341203": {
+      "transaction_id": "TXN982341203",
+      "permanent_id": "1-4412870301",
+      "academic_year": "2027-28",
+      "status": "SUCCESS"
+    }
+  }
+}

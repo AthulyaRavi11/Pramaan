@@ -1,0 +1,80 @@
+# Issuing-authority verification sources.
+#
+# adapter: mock  -> demo registry in data/authority_registry.json (synthetic)
+# adapter: http  -> real authorized API (fill base_url + credential env var once
+#                   an MoU / API access is granted; never scrape or bypass access)
+# adapter: none  -> no automated source; route to manual confirmation
+#
+# methods: what the platform can use for this source
+#   api       - look up the reference number on the authority's service
+#   qr_signed - QR code on the document carries an Ed25519-signed payload; the
+#               public key of the authority is in data/trust_store/<source>.pub
+#   pdf_signature - PAdES digital signature in the PDF; signer must chain to a root
+#               certificate in data/trust_store/*.pem (in production: CCA India roots)
+#   repository - fetch the issuer's own copy (DigiLocker-style) and compare SHA-256
+#
+# simulate (mock only): available | unavailable | async  (async = first call
+#   returns PENDING; a later re-check resolves it — models slow authorities)
+
+state_fire_services:
+  label: State Fire & Emergency Services (demo registry)
+  adapter: mock
+  methods: [api, qr_signed]
+  compare_fields: [certificate_no, institution_name, valid_until]
+  simulate: available
+
+state_pollution_board:
+  label: State Pollution Control Board (demo registry)
+  adapter: mock
+  methods: [api]
+  compare_fields: [certificate_no, valid_until]
+  simulate: available
+
+nba_registry:
+  label: National Board of Accreditation (demo registry)
+  adapter: mock
+  methods: [api, qr_signed]
+  compare_fields: [certificate_no, institution_name, valid_until]
+  simulate: available
+
+affiliating_university:
+  label: Affiliating University (demo registry)
+  adapter: mock
+  methods: [api, pdf_signature, repository]   # letters are digitally signed and deposited in a repository
+  compare_fields: [certificate_no, academic_year]
+  simulate: available
+
+municipal_records:
+  label: Municipal Building Records
+  adapter: mock
+  methods: [api]
+  compare_fields: [certificate_no]
+  simulate: available
+
+aicte_payments:
+  label: AICTE Payment Records (internal, authorized)
+  adapter: internal
+  methods: [api]
+  compare_fields: [transaction_id]
+  simulate: available
+
+digilocker_nad:
+  label: DigiLocker / NAD Depository (demo registry)
+  adapter: digilocker            # demo registry until DIGILOCKER_API_KEY + base_url are configured
+  methods: [api]
+  compare_fields: [udin, institution_name, financial_year]
+  simulate: available
+
+state_land_records:
+  label: State Land Records / ULB Cadastre (demo registry)
+  adapter: land_records          # demo registry until LAND_RECORDS_API_KEY + base_url are configured
+  methods: [api]
+  compare_fields: [survey_number, land_area_acres, institution_name]
+  simulate: available
+
+# Example of a real integration once authorized (disabled):
+# state_fire_services_live:
+#   adapter: http
+#   base_url: https://<authority-endpoint>/noc/verify
+#   credential_env: FIRE_NOC_API_KEY
+#   methods: [api]

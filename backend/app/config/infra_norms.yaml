@@ -1,0 +1,48 @@
+# Infrastructure norms used by the compliance-assistance module.
+#
+# ILLUSTRATIVE PLACEHOLDER VALUES ONLY — they are NOT taken from the AICTE
+# Approval Process Handbook. Replace with the applicable APH norms before use.
+# Findings from this module are advisory and always go to an official.
+
+version: "demo-placeholder"
+
+per_programme:
+  UG_ENGINEERING:
+    classroom_per_intake: 60        # one classroom per N students of annual intake
+    lab_min_per_programme: 2
+    built_up_area_sqm_per_intake: 10
+  PG_ENGINEERING:
+    classroom_per_intake: 30
+    lab_min_per_programme: 1
+    built_up_area_sqm_per_intake: 8
+  MCA:
+    classroom_per_intake: 60
+    lab_min_per_programme: 2
+    built_up_area_sqm_per_intake: 8
+
+faculty:
+  student_faculty_ratio_max: 20    # total intake : faculty
+  cadre_ratio: [1, 2, 6]           # professor : associate professor : assistant professor
+
+# Minimum land for a new institution, by location class (acres).
+land:
+  default_location: Urban
+  min_acres_by_location:
+    Mega-city: 1.5
+    Metro: 2.5
+    Urban: 4.0
+    Hilly: 2.0
+    Rural: 7.5
+
+# Share of the required built-up area expected in each use.
+area_shares:
+  instructional: 0.65
+  administrative: 0.15
+  amenities: 0.20
+
+photo_evidence:
+  min_blur_variance: 60            # Laplacian variance below this = too blurry to assess
+  min_brightness: 35               # mean gray level below this = too dark
+  reuse_texture_corr_min: 0.965    # aligned fine-texture correlation >= this = same photograph re-used
+  require_tag_per_room_type: [classroom, lab, library]
+  max_geo_distance_km: 5.0         # photo GPS tag farther than this from the registered campus is flagged

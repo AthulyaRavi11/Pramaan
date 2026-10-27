@@ -1,0 +1,177 @@
+# Document types the platform understands.
+# Each type defines: classification keywords, extraction patterns, validity field
+# and which issuing-authority source (sources.yaml) can verify it.
+# reference_field: which extracted field is the number the issuing authority knows the document by
+#   (default certificate_no).
+# Patterns are label-based regexes applied to OCR/PDF text. Add or tune them here — no code change needed.
+
+affidavit:
+  label: Affidavit / Undertaking
+  keywords: [affidavit, undertaking, solemnly affirm, notary, deponent]
+  fields:
+    institution_name: '(?:(?:Name of (?:th[eo] )?(?:Institution|College|Institute|Premises)|Institution Name)\s*[:\-]?\s*|Director,?\s*)([A-Za-z0-9 &.,\-]+)'
+    aicte_permanent_id: '(?:\bAICTE\s*)?Permanent ID\s*[:\-]\s*([0-9]-[0-9]{6,12})'
+    academic_year: 'Academic Year\s*[:\-]\s*(20\d\d-\d\d)'
+    issue_date: '(?:Date of Affirmation|Affirmed on|Date of|Date)\s*[:\-]\s*([0-9]{1,2}(?:[\-/.][0-9]{1,2}[\-/.][0-9]{4}|\s+[A-Za-z]+\s+[0-9]{4}))'
+    notary_reg_no: 'Notary Reg(?:istration)?\.? No\.?\s*[:\-]\s*([A-Z]{2}/NOT/\d{3,6})'
+  required_fields: [institution_name, aicte_permanent_id, academic_year, issue_date, notary_reg_no]
+  date_fields: [issue_date]
+  source: null
+
+fire_noc:
+  label: Fire Safety NOC
+  keywords: [fire, no objection certificate, fire safety, fire and emergency, fire service]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Institution|Premises|Occupier))\s*[:\-]\s*(.+)'
+    certificate_no: '(?:NOC|Certificate) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    issue_date: 'Date of Issue\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+    valid_until: 'Valid (?:up ?to|Until|Till)\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+    built_up_area_sqm: 'Built[\- ]up Area(?: \(sq\.? ?m\))?\s*[:\-]\s*([0-9,./ ]+)'
+  required_fields: [institution_name, certificate_no, issue_date, valid_until]
+  date_fields: [issue_date, valid_until]
+  expiry_field: valid_until
+  source: state_fire_services
+
+building_completion:
+  label: Building Completion / Occupancy Certificate
+  keywords: [completion certificate, occupancy, building plan, municipal, sanctioned plan]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Owner|Institution|Applicant))\s*[:\-]\s*(.+)'
+    certificate_no: '(?:Certificate|Permit) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    issue_date: 'Date of Issue\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+    built_up_area_sqm: 'Built[\- ]up Area(?: \(sq\.? ?m\))?\s*[:\-]\s*([0-9,./ ]+)'
+  required_fields: [institution_name, certificate_no, issue_date, built_up_area_sqm]
+  date_fields: [issue_date]
+  source: municipal_records
+
+floor_plan:
+  label: Sanctioned Building Plan / Blueprint
+  keywords: [sanctioned plan, building blueprint, architectural layout, floor plan, municipal approval, sanctioned area]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Institution|College|Premises))\s*[:\-]\s*(.+)'
+    certificate_no: '(?:Sanction|Approval|Plan) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    sanctioned_area_sqm: '(?:Sanctioned Built[\- ]up Area|Total Built[\- ]up Area|Sanctioned Area)(?: \(sq\.? ?m\))?\s*[:\-]\s*([0-9,./ ]+)'
+    issue_date: 'Date of Sanction\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [certificate_no, sanctioned_area_sqm]
+  date_fields: [issue_date]
+  source: municipal_records
+
+pollution_noc:
+  label: Pollution Control Board Consent
+  keywords: [pollution control, consent to operate, environment, effluent]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Unit|Institution))\s*[:\-]\s*(.+)'
+    certificate_no: '(?:Consent|Order) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    issue_date: 'Date of Issue\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+    valid_until: 'Valid (?:up ?to|Until|Till)\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, certificate_no, valid_until]
+  date_fields: [issue_date, valid_until]
+  expiry_field: valid_until
+  source: state_pollution_board
+
+nba_accreditation:
+  label: NBA Accreditation Certificate
+  keywords: [national board of accreditation, nba, accredited, accreditation]
+  fields:
+    institution_name: '(?:Name of (?:the )?Institution)\s*[:\-]\s*(.+)'
+    certificate_no: '(?:Accreditation|Reference) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    programme: 'Programme\s*[:\-]\s*(.+)'
+    valid_until: 'Valid (?:up ?to|Until|Till)\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, certificate_no, valid_until]
+  date_fields: [valid_until]
+  expiry_field: valid_until
+  source: nba_registry
+
+university_affiliation:
+  label: University Affiliation Letter
+  keywords: [affiliation, university, affiliated, registrar]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:College|Institution))\s*[:\-]\s*(.+)'
+    certificate_no: '(?:Letter|Ref(?:erence)?) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    academic_year: 'Academic Year\s*[:\-]\s*(20\d\d-\d\d)'
+    issue_date: 'Date of Issue\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, certificate_no, academic_year]
+  date_fields: [issue_date]
+  source: affiliating_university
+
+ter_receipt:
+  label: Processing Fee (TER) Payment Receipt
+  keywords: [payment receipt, transaction, processing fee, amount paid]
+  fields:
+    institution_name: '(?:Name of (?:the )?Institution|Payer)\s*[:\-]\s*(.+)'
+    transaction_id: 'Transaction (?:ID|Ref\.?)\s*[:\-]\s*([A-Z0-9]+)'
+    aicte_permanent_id: 'AICTE Permanent ID\s*[:\-]\s*([0-9]-[0-9]{6,12})'
+    payment_date: 'Payment Date\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [transaction_id, aicte_permanent_id]
+  date_fields: [payment_date]
+  source: aicte_payments
+  reference_field: transaction_id
+
+state_govt_noc:
+  label: State Government NOC
+  keywords: [government of, no objection, state government, department of technical education, higher education department]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Institution|College|Society))\s*[:\-]\s*(.+)'
+    certificate_no: '(?:G\.?O\.?|Order|Letter) No\.?\s*[:\-]\s*([A-Z0-9/\-.()]+)'
+    issue_date: '(?:Dated|Date of Issue)\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, certificate_no, issue_date]
+  date_fields: [issue_date]
+  source: null
+
+trust_resolution:
+  label: Society / Trust Resolution
+  keywords: [resolution, society, trust, governing body, resolved that, board of trustees]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Institution|Society|Trust))\s*[:\-]\s*(.+)'
+    proposed_name: '(?:Proposed|New) Name\s*[:\-]\s*(.+)'
+    issue_date: '(?:Date of (?:Meeting|Resolution))\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, proposed_name, issue_date]
+  date_fields: [issue_date]
+  source: null
+
+land_deed:
+  label: Registered Land Sale / Lease Deed
+  keywords: [sale deed, lease deed, sub-registrar, schedule of property, cadastral, survey number, title deed]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Purchaser|Lessee|Institution|Society))\s*[:\-]\s*(.+)'
+    survey_number: '(?:Survey|Khasra|Gat) No\.?\s*[:\-]\s*([A-Z0-9/\-, ]+)'
+    land_area_acres: '(?:Total Area|Extent of Land)\s*[:\-]\s*([0-9.]+)\s*(?:Acres|Ac\.?)'
+    registration_no: '(?:Document|Deed|Registration) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    issue_date: '(?:Date of Registration|Execution Date)\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, survey_number, land_area_acres]
+  date_fields: [issue_date]
+  source: state_land_records
+  reference_field: registration_no
+
+town_planning_noc:
+  label: Town Planning Authority / Land Use NOC
+  keywords: [town planning, urban development, land use, zoning certificate, master plan, competent authority]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Applicant|Institution|College))\s*[:\-]\s*(.+)'
+    survey_number: '(?:Survey|Khasra) No\.?\s*[:\-]\s*([A-Z0-9/\-, ]+)'
+    land_category: '(?:Zoning|Land Category|Classification)\s*[:\-]\s*([A-Za-z\- ]+)'
+    certificate_no: '(?:NOC|Approval|Order) No\.?\s*[:\-]\s*([A-Z0-9/\-]+)'
+    issue_date: 'Date of Issue\s*[:\-]\s*([0-9]{1,2}[\-/.][0-9]{1,2}[\-/.][0-9]{4})'
+  required_fields: [institution_name, survey_number]
+  date_fields: [issue_date]
+  source: state_land_records
+
+balance_sheet:
+  label: Audited Balance Sheet & Financial Viability
+  keywords: [balance sheet, chartered accountant, audited financial, income and expenditure, net worth, udin]
+  fields:
+    institution_name: '(?:Name of (?:the )?(?:Entity|Trust|Society|Institution))\s*[:\-]\s*(.+)'
+    financial_year: '(?:Financial|Accounting) Year\s*[:\-]\s*(20\d\d-\d\d)'
+    ca_reg_no: '(?:Membership|CA Reg(?:istration)?\.?) No\.?\s*[:\-]\s*([0-9]{5,8})'
+    udin: 'UDIN\s*[:\-]\s*([0-9A-Z]{18})'
+    net_worth_inr: '(?:Net Worth|Reserve Fund)\s*[:\-]\s*(?:Rs\.?|INR)?\s*([0-9,]+)'
+  required_fields: [institution_name, financial_year]
+  source: digilocker_nad
+  reference_field: udin
+
+infra_photo:
+  label: Infrastructure Photograph
+  keywords: []
+  fields: {}
+  required_fields: []
+  source: null

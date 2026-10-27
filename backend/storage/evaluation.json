@@ -1,0 +1,171 @@
+{
+  "applications_evaluated": 43,
+  "classification_accuracy": 1.0,
+  "field_extraction_accuracy": {
+    "text_layer": 1.0,
+    "ocr_scanned": 0.9814,
+    "fields_checked": 1242
+  },
+  "fault_detection_recall": 1.0,
+  "fault_detection_by_type": {
+    "area_mismatch": {
+      "detected": 4,
+      "injected": 4
+    },
+    "ay_mismatch_univ": {
+      "detected": 3,
+      "injected": 3
+    },
+    "blurry_photo": {
+      "detected": 3,
+      "injected": 3
+    },
+    "cloned_stamp": {
+      "detected": 5,
+      "injected": 5
+    },
+    "copied_nba": {
+      "detected": 1,
+      "injected": 1
+    },
+    "dup_photos": {
+      "detected": 2,
+      "injected": 2
+    },
+    "edited_after_signing": {
+      "detected": 4,
+      "injected": 4
+    },
+    "expired_fire": {
+      "detected": 6,
+      "injected": 6
+    },
+    "faculty_record_mismatch": {
+      "detected": 3,
+      "injected": 3
+    },
+    "fake_ter": {
+      "detected": 2,
+      "injected": 2
+    },
+    "id_mismatch_affidavit": {
+      "detected": 5,
+      "injected": 5
+    },
+    "intake_exceeds": {
+      "detected": 2,
+      "injected": 2
+    },
+    "low_faculty": {
+      "detected": 5,
+      "injected": 5
+    },
+    "missing_building": {
+      "detected": 2,
+      "injected": 2
+    },
+    "missing_library_photo": {
+      "detected": 4,
+      "injected": 4
+    },
+    "old_affidavit": {
+      "detected": 4,
+      "injected": 4
+    },
+    "open_deficiency": {
+      "detected": 4,
+      "injected": 4
+    },
+    "tampered_fire": {
+      "detected": 5,
+      "injected": 5
+    },
+    "ter_unpaid": {
+      "detected": 3,
+      "injected": 3
+    },
+    "wrong_slot_building": {
+      "detected": 8,
+      "injected": 8
+    }
+  },
+  "faults_not_reached_blocked_at_submission": [
+    {
+      "app": "INST-GJ-9006",
+      "fault": "ter_unpaid"
+    }
+  ],
+  "unexpected_high_medium_flags": 2,
+  "clean_applications": 5,
+  "clean_applications_with_false_alarm": 0,
+  "verification_status_counts": {
+    "VERIFIED": 382,
+    "EXPIRED": 12,
+    "MANUAL_REVIEW": 8,
+    "MISMATCH": 24
+  },
+  "automated_verification_rate": 0.9812,
+  "avg_validation_ms": 3622,
+  "documents_cleared_without_manual_recheck": 0.7282,
+  "discrepancy_precision": 0.9833,
+  "time_to_first_alert_ms": 3622,
+  "manual_effort": {
+    "minutes_by_hand": 6750,
+    "minutes_with_pramaan": 480,
+    "estimated_reduction": 0.9289,
+    "assumed_minutes": {
+      "read_document": 4,
+      "confirm_with_authority": 15,
+      "check_record": 3,
+      "review_photo": 1.5,
+      "review_flag": 3
+    }
+  },
+  "extraction_errors_sample": [
+    {
+      "doc": "INST-GJ-9015/affidavit.pdf",
+      "field": "institution_name",
+      "expected": "Pamba Institute of Engineering and Technology",
+      "got": "Parnba institute of Engineering and Technology"
+    },
+    {
+      "doc": "INST-KL-9016/affidavit.pdf",
+      "field": "aicte_permanent_id",
+      "expected": "1-9258767211",
+      "got": "1-925876721"
+    },
+    {
+      "doc": "INST-KL-9033/affidavit.pdf",
+      "field": "institution_name",
+      "expected": "Chambal Institute of Engineering and Technology South",
+      "got": "Chamba"
+    },
+    {
+      "doc": "INST-TN-9035/affidavit.pdf",
+      "field": "institution_name",
+      "expected": "Pamba Engineering College South",
+      "got": "Parnba Engineering College South"
+    }
+  ],
+  "false_alarms_sample": [
+    {
+      "app": "INST-KL-9016",
+      "rule": "EOA-CON-02",
+      "title": "AICTE Permanent ID differs from the application",
+      "faults": [
+        "edited_after_signing",
+        "ter_unpaid"
+      ]
+    },
+    {
+      "app": "INST-KL-9033",
+      "rule": "EOA-CON-01",
+      "title": "Institution name differs from the application",
+      "faults": [
+        "low_faculty",
+        "tampered_fire"
+      ]
+    }
+  ],
+  "note": "Synthetic data. These numbers show the pipeline works as designed; they are not a field accuracy claim."
+}

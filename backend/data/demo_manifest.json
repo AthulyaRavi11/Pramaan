@@ -1,0 +1,450 @@
+[
+  {
+    "institution_id": "INST-TN-0412",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Coromandel Institute of Technology",
+      "aicte_permanent_id": "1-4412870301",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 12050.0,
+      "classrooms": 18,
+      "labs": 18,
+      "faculty_count": 21,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 120
+        },
+        {
+          "code": "BE-ECE",
+          "name": "B.E. Electronics and Communication Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-MECH",
+          "name": "B.E. Mechanical Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "ME-CSE",
+          "name": "M.E. Computer Science and Engineering",
+          "level": "PG_ENGINEERING",
+          "intake": 18
+        }
+      ]
+    },
+    "dir": "data/demo_docs/INST-TN-0412",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_seminar-hall-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "seminar-hall-1"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [],
+    "expected_rules": [],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Coromandel Institute of Technology",
+        "aicte_permanent_id": "1-4412870301",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-20",
+        "notary_reg_no": "TN/NOT/56130"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/TN/2024/85047",
+        "institution_name": "Coromandel Institute of Technology",
+        "issue_date": "2024-04-01",
+        "valid_until": "2030-03-31",
+        "built_up_area_sqm": 12050.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2017/869",
+        "institution_name": "Coromandel Institute of Technology",
+        "issue_date": "2015-08-25",
+        "built_up_area_sqm": 12050.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/41448",
+        "institution_name": "Coromandel Institute of Technology",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "nba_accreditation.pdf": {
+        "certificate_no": "NBA/ACC/2023/1041",
+        "institution_name": "Coromandel Institute of Technology",
+        "programme": "B.E. Computer Science and Engineering",
+        "valid_until": "2028-06-30"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2322/2026",
+        "institution_name": "Coromandel Institute of Technology",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE5770577141",
+        "institution_name": "Coromandel Institute of Technology",
+        "aicte_permanent_id": "1-4412870301",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "coromandel"
+  },
+  {
+    "institution_id": "INST-MH-1187",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Sahyadri College of Engineering",
+      "aicte_permanent_id": "1-3398120455",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 9250.0,
+      "classrooms": 17,
+      "labs": 10,
+      "faculty_count": 10,
+      "programmes": [
+        {
+          "code": "BE-CSE",
+          "name": "B.E. Computer Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BE-IT",
+          "name": "B.E. Information Technology",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "BE-CIVIL",
+          "name": "B.E. Civil Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/demo_docs/INST-MH-1187",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_classroom-102.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-102"
+      },
+      {
+        "file": "photo_seminar-hall-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "seminar-hall-1"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      }
+    ],
+    "faults": [
+      "ay_mismatch_univ",
+      "blurry_photo",
+      "expired_fire",
+      "faculty_record_mismatch",
+      "intake_exceeds",
+      "low_faculty",
+      "missing_library_photo",
+      "old_affidavit",
+      "open_deficiency",
+      "ter_unpaid",
+      "wrong_slot_building"
+    ],
+    "expected_rules": [
+      "DOC-CLASS",
+      "EOA-CON-03",
+      "EOA-DOC-03",
+      "EOA-REC-03",
+      "EOA-REC-04",
+      "EOA-REC-06",
+      "EOA-REC-07",
+      "EOA-VAL-01",
+      "EOA-VAL-04",
+      "INFRA-FACULTY",
+      "INFRA-PHOTO-BLUR",
+      "INFRA-PHOTO-COVER",
+      "VER-EXPIRED"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Sahyadri College of Engineering",
+        "aicte_permanent_id": "1-3398120455",
+        "academic_year": "2027-28",
+        "issue_date": "2026-01-02",
+        "notary_reg_no": "MH/NOT/28554"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/MH/2024/62064",
+        "institution_name": "Sahyadri College of Engineering",
+        "issue_date": "2024-04-01",
+        "valid_until": "2026-03-31",
+        "built_up_area_sqm": 9250.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/77316",
+        "institution_name": "Sahyadri College of Engineering",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/2250/2026",
+        "institution_name": "Sahyadri College of Engineering",
+        "academic_year": "2026-27",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE8400709593",
+        "institution_name": "Sahyadri College of Engineering",
+        "aicte_permanent_id": "1-3398120455",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "sahyadri"
+  },
+  {
+    "institution_id": "INST-UP-2290",
+    "category": "EOA",
+    "form": {
+      "institution_name": "Ganga Valley Institute of Engineering",
+      "aicte_permanent_id": "1-5520771190",
+      "academic_year": "2027-28",
+      "application_date": "20-10-2026",
+      "built_up_area_sqm": 15100.0,
+      "classrooms": 18,
+      "labs": 14,
+      "faculty_count": 25,
+      "programmes": [
+        {
+          "code": "BTECH-CSE",
+          "name": "B.Tech Computer Science and Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 180
+        },
+        {
+          "code": "BTECH-EE",
+          "name": "B.Tech Electrical Engineering",
+          "level": "UG_ENGINEERING",
+          "intake": 60
+        },
+        {
+          "code": "MCA",
+          "name": "Master of Computer Applications",
+          "level": "MCA",
+          "intake": 60
+        }
+      ]
+    },
+    "dir": "data/demo_docs/INST-UP-2290",
+    "documents": [
+      {
+        "file": "affidavit.pdf",
+        "declared_type": "affidavit",
+        "tag": null
+      },
+      {
+        "file": "fire_noc.pdf",
+        "declared_type": "fire_noc",
+        "tag": null
+      },
+      {
+        "file": "building_completion.pdf",
+        "declared_type": "building_completion",
+        "tag": null
+      },
+      {
+        "file": "pollution_consent.pdf",
+        "declared_type": "pollution_noc",
+        "tag": null
+      },
+      {
+        "file": "nba_accreditation.pdf",
+        "declared_type": "nba_accreditation",
+        "tag": null
+      },
+      {
+        "file": "university_affiliation.pdf",
+        "declared_type": "university_affiliation",
+        "tag": null
+      },
+      {
+        "file": "ter_receipt.pdf",
+        "declared_type": "ter_receipt",
+        "tag": null
+      },
+      {
+        "file": "photo_classroom-101.jpg",
+        "declared_type": "infra_photo",
+        "tag": "classroom-101"
+      },
+      {
+        "file": "photo_lab-cse-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-cse-1"
+      },
+      {
+        "file": "photo_lab-ece-1.jpg",
+        "declared_type": "infra_photo",
+        "tag": "lab-ece-1"
+      },
+      {
+        "file": "photo_library-main.jpg",
+        "declared_type": "infra_photo",
+        "tag": "library-main"
+      }
+    ],
+    "faults": [
+      "copied_nba",
+      "dup_photos",
+      "edited_after_signing",
+      "fake_ter",
+      "id_mismatch_affidavit",
+      "tampered_fire"
+    ],
+    "expected_rules": [
+      "ANOM-DUP",
+      "ANOM-FONT",
+      "ANOM-META",
+      "EOA-CON-02",
+      "INFRA-PHOTO-DUP",
+      "VER-MISMATCH",
+      "VER-REPOSITORY",
+      "VER-SIGNATURE"
+    ],
+    "truth": {
+      "affidavit.pdf": {
+        "institution_name": "Ganga Valley Institute of Engineering",
+        "aicte_permanent_id": "1-5520771109",
+        "academic_year": "2027-28",
+        "issue_date": "2026-09-23",
+        "notary_reg_no": "UP/NOT/76684"
+      },
+      "fire_noc.pdf": {
+        "certificate_no": "FSN/UP/2024/50501",
+        "institution_name": "Ganga Valley Institute of Engineering",
+        "issue_date": "2024-04-01",
+        "valid_until": "2028-03-31",
+        "built_up_area_sqm": 15100.0
+      },
+      "building_completion.pdf": {
+        "certificate_no": "MC/OC/2010/968",
+        "institution_name": "Ganga Valley Institute of Engineering",
+        "issue_date": "2015-06-23",
+        "built_up_area_sqm": 15100.0
+      },
+      "pollution_consent.pdf": {
+        "certificate_no": "PCB/CTO/57650",
+        "institution_name": "Ganga Valley Institute of Engineering",
+        "issue_date": "2025-05-15",
+        "valid_until": "2028-03-31"
+      },
+      "university_affiliation.pdf": {
+        "certificate_no": "UNIV/AFF/8554/2026",
+        "institution_name": "Ganga Valley Institute of Engineering",
+        "academic_year": "2027-28",
+        "issue_date": "2026-08-10"
+      },
+      "ter_receipt.pdf": {
+        "transaction_id": "AICTE2813410345",
+        "institution_name": "Ganga Valley Institute of Engineering",
+        "aicte_permanent_id": "1-5520771190",
+        "payment_date": "2026-10-05"
+      }
+    },
+    "user": "gangavalley"
+  }
+]

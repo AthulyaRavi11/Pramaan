@@ -1,0 +1,1365 @@
+{
+  "state_fire_services": {
+    "FSN/TN/2024/85047": {
+      "certificate_no": "FSN/TN/2024/85047",
+      "institution_name": "Coromandel Institute of Technology",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/62064": {
+      "certificate_no": "FSN/MH/2024/62064",
+      "institution_name": "Sahyadri College of Engineering",
+      "valid_until": "2026-03-31",
+      "status": "EXPIRED"
+    },
+    "FSN/UP/2024/50501": {
+      "certificate_no": "FSN/UP/2024/50501",
+      "institution_name": "Ganga Valley Institute of Engineering",
+      "valid_until": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/91567": {
+      "certificate_no": "FSN/UP/2024/91567",
+      "institution_name": "Vindhya Engineering College",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/97018": {
+      "certificate_no": "FSN/KL/2024/97018",
+      "institution_name": "Kaveri Engineering College",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/42484": {
+      "certificate_no": "FSN/UP/2024/42484",
+      "institution_name": "Narmada Engineering College",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/61032": {
+      "certificate_no": "FSN/GJ/2024/61032",
+      "institution_name": "Aravalli Engineering College",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/81403": {
+      "certificate_no": "FSN/GJ/2024/81403",
+      "institution_name": "Deccan Institute of Engineering and Technology",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/79107": {
+      "certificate_no": "FSN/GJ/2024/79107",
+      "institution_name": "Konkan College of Engineering",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/22639": {
+      "certificate_no": "FSN/GJ/2024/22639",
+      "institution_name": "Malabar Institute of Engineering and Technology",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/55915": {
+      "certificate_no": "FSN/MH/2024/55915",
+      "institution_name": "Brahmaputra Institute of Technology",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/64609": {
+      "certificate_no": "FSN/UP/2024/64609",
+      "institution_name": "Satpura Institute of Technology",
+      "valid_until": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/13724": {
+      "certificate_no": "FSN/KL/2024/13724",
+      "institution_name": "Nilgiri Institute of Technology",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/29771": {
+      "certificate_no": "FSN/MH/2024/29771",
+      "institution_name": "Godavari Engineering College",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/58862": {
+      "certificate_no": "FSN/MH/2024/58862",
+      "institution_name": "Tapti Institute of Engineering and Technology",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/34732": {
+      "certificate_no": "FSN/KL/2024/34732",
+      "institution_name": "Mahanadi College of Engineering",
+      "valid_until": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KA/2024/26583": {
+      "certificate_no": "FSN/KA/2024/26583",
+      "institution_name": "Chambal Institute of Engineering and Technology",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/76358": {
+      "certificate_no": "FSN/MH/2024/76358",
+      "institution_name": "Sabari Engineering College",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/53485": {
+      "certificate_no": "FSN/GJ/2024/53485",
+      "institution_name": "Pamba Institute of Engineering and Technology",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/53779": {
+      "certificate_no": "FSN/KL/2024/53779",
+      "institution_name": "Tungabhadra Institute of Engineering and Technology",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/TN/2024/64662": {
+      "certificate_no": "FSN/TN/2024/64662",
+      "institution_name": "Krishna Valley College of Engineering",
+      "valid_until": "2026-03-31",
+      "status": "EXPIRED"
+    },
+    "FSN/KA/2024/58174": {
+      "certificate_no": "FSN/KA/2024/58174",
+      "institution_name": "Shivalik College of Engineering",
+      "valid_until": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/TN/2024/38159": {
+      "certificate_no": "FSN/TN/2024/38159",
+      "institution_name": "Vaigai Institute of Engineering and Technology",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/45069": {
+      "certificate_no": "FSN/MH/2024/45069",
+      "institution_name": "Vindhya Engineering College South",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/43715": {
+      "certificate_no": "FSN/UP/2024/43715",
+      "institution_name": "Kaveri Engineering College South",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KA/2024/99000": {
+      "certificate_no": "FSN/KA/2024/99000",
+      "institution_name": "Narmada College of Engineering South",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/87730": {
+      "certificate_no": "FSN/KL/2024/87730",
+      "institution_name": "Aravalli College of Engineering South",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/61358": {
+      "certificate_no": "FSN/KL/2024/61358",
+      "institution_name": "Deccan Institute of Technology South",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/24905": {
+      "certificate_no": "FSN/GJ/2024/24905",
+      "institution_name": "Konkan Institute of Engineering and Technology South",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/19958": {
+      "certificate_no": "FSN/UP/2024/19958",
+      "institution_name": "Malabar Institute of Technology South",
+      "valid_until": "2026-03-31",
+      "status": "EXPIRED"
+    },
+    "FSN/KA/2024/92638": {
+      "certificate_no": "FSN/KA/2024/92638",
+      "institution_name": "Brahmaputra Institute of Technology South",
+      "valid_until": "2028-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KA/2024/11983": {
+      "certificate_no": "FSN/KA/2024/11983",
+      "institution_name": "Satpura Institute of Technology South",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/33030": {
+      "certificate_no": "FSN/KL/2024/33030",
+      "institution_name": "Nilgiri College of Engineering South",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/GJ/2024/70055": {
+      "certificate_no": "FSN/GJ/2024/70055",
+      "institution_name": "Godavari Institute of Engineering and Technology South",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KA/2024/45875": {
+      "certificate_no": "FSN/KA/2024/45875",
+      "institution_name": "Tapti Institute of Technology South",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/MH/2024/90795": {
+      "certificate_no": "FSN/MH/2024/90795",
+      "institution_name": "Mahanadi College of Engineering South",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KL/2024/92501": {
+      "certificate_no": "FSN/KL/2024/92501",
+      "institution_name": "Chambal Institute of Engineering and Technology South",
+      "valid_until": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/77246": {
+      "certificate_no": "FSN/UP/2024/77246",
+      "institution_name": "Sabari Engineering College South",
+      "valid_until": "2026-03-31",
+      "status": "EXPIRED"
+    },
+    "FSN/TN/2024/82673": {
+      "certificate_no": "FSN/TN/2024/82673",
+      "institution_name": "Pamba Engineering College South",
+      "valid_until": "2026-03-31",
+      "status": "EXPIRED"
+    },
+    "FSN/UP/2024/33777": {
+      "certificate_no": "FSN/UP/2024/33777",
+      "institution_name": "Tungabhadra Engineering College South",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/KA/2024/40662": {
+      "certificate_no": "FSN/KA/2024/40662",
+      "institution_name": "Krishna Valley Institute of Technology South",
+      "valid_until": "2030-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/UP/2024/90251": {
+      "certificate_no": "FSN/UP/2024/90251",
+      "institution_name": "Shivalik Institute of Engineering and Technology South",
+      "valid_until": "2026-03-31",
+      "status": "EXPIRED"
+    },
+    "FSN/KL/2024/44291": {
+      "certificate_no": "FSN/KL/2024/44291",
+      "institution_name": "Vaigai Engineering College South",
+      "valid_until": "2029-03-31",
+      "status": "ACTIVE"
+    },
+    "FSN/TN/2023/31877": {
+      "certificate_no": "FSN/TN/2023/31877",
+      "institution_name": "Coromandel Institute of Technology",
+      "valid_until": "2026-03-31",
+      "status": "VALID"
+    }
+  },
+  "state_pollution_board": {
+    "PCB/CTO/41448": {
+      "certificate_no": "PCB/CTO/41448",
+      "valid_until": "2028-03-31",
+      "institution_name": "Coromandel Institute of Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/77316": {
+      "certificate_no": "PCB/CTO/77316",
+      "valid_until": "2028-03-31",
+      "institution_name": "Sahyadri College of Engineering",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/57650": {
+      "certificate_no": "PCB/CTO/57650",
+      "valid_until": "2028-03-31",
+      "institution_name": "Ganga Valley Institute of Engineering",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/25992": {
+      "certificate_no": "PCB/CTO/25992",
+      "valid_until": "2028-03-31",
+      "institution_name": "Vindhya Engineering College",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/67468": {
+      "certificate_no": "PCB/CTO/67468",
+      "valid_until": "2028-03-31",
+      "institution_name": "Kaveri Engineering College",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/45197": {
+      "certificate_no": "PCB/CTO/45197",
+      "valid_until": "2028-03-31",
+      "institution_name": "Narmada Engineering College",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/13380": {
+      "certificate_no": "PCB/CTO/13380",
+      "valid_until": "2028-03-31",
+      "institution_name": "Aravalli Engineering College",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/73417": {
+      "certificate_no": "PCB/CTO/73417",
+      "valid_until": "2028-03-31",
+      "institution_name": "Deccan Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/40321": {
+      "certificate_no": "PCB/CTO/40321",
+      "valid_until": "2028-03-31",
+      "institution_name": "Konkan College of Engineering",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/56694": {
+      "certificate_no": "PCB/CTO/56694",
+      "valid_until": "2028-03-31",
+      "institution_name": "Malabar Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/62978": {
+      "certificate_no": "PCB/CTO/62978",
+      "valid_until": "2028-03-31",
+      "institution_name": "Brahmaputra Institute of Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/54890": {
+      "certificate_no": "PCB/CTO/54890",
+      "valid_until": "2028-03-31",
+      "institution_name": "Satpura Institute of Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/43419": {
+      "certificate_no": "PCB/CTO/43419",
+      "valid_until": "2028-03-31",
+      "institution_name": "Nilgiri Institute of Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/83608": {
+      "certificate_no": "PCB/CTO/83608",
+      "valid_until": "2028-03-31",
+      "institution_name": "Godavari Engineering College",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/12405": {
+      "certificate_no": "PCB/CTO/12405",
+      "valid_until": "2028-03-31",
+      "institution_name": "Tapti Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/65397": {
+      "certificate_no": "PCB/CTO/65397",
+      "valid_until": "2028-03-31",
+      "institution_name": "Mahanadi College of Engineering",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/59964": {
+      "certificate_no": "PCB/CTO/59964",
+      "valid_until": "2028-03-31",
+      "institution_name": "Chambal Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/62831": {
+      "certificate_no": "PCB/CTO/62831",
+      "valid_until": "2028-03-31",
+      "institution_name": "Sabari Engineering College",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/48465": {
+      "certificate_no": "PCB/CTO/48465",
+      "valid_until": "2028-03-31",
+      "institution_name": "Pamba Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/73296": {
+      "certificate_no": "PCB/CTO/73296",
+      "valid_until": "2028-03-31",
+      "institution_name": "Tungabhadra Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/27465": {
+      "certificate_no": "PCB/CTO/27465",
+      "valid_until": "2028-03-31",
+      "institution_name": "Krishna Valley College of Engineering",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/49854": {
+      "certificate_no": "PCB/CTO/49854",
+      "valid_until": "2028-03-31",
+      "institution_name": "Shivalik College of Engineering",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/76589": {
+      "certificate_no": "PCB/CTO/76589",
+      "valid_until": "2028-03-31",
+      "institution_name": "Vaigai Institute of Engineering and Technology",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/34454": {
+      "certificate_no": "PCB/CTO/34454",
+      "valid_until": "2028-03-31",
+      "institution_name": "Vindhya Engineering College South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/21803": {
+      "certificate_no": "PCB/CTO/21803",
+      "valid_until": "2028-03-31",
+      "institution_name": "Kaveri Engineering College South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/94030": {
+      "certificate_no": "PCB/CTO/94030",
+      "valid_until": "2028-03-31",
+      "institution_name": "Narmada College of Engineering South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/99394": {
+      "certificate_no": "PCB/CTO/99394",
+      "valid_until": "2028-03-31",
+      "institution_name": "Aravalli College of Engineering South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/12390": {
+      "certificate_no": "PCB/CTO/12390",
+      "valid_until": "2028-03-31",
+      "institution_name": "Deccan Institute of Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/79456": {
+      "certificate_no": "PCB/CTO/79456",
+      "valid_until": "2028-03-31",
+      "institution_name": "Konkan Institute of Engineering and Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/24556": {
+      "certificate_no": "PCB/CTO/24556",
+      "valid_until": "2028-03-31",
+      "institution_name": "Malabar Institute of Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/16162": {
+      "certificate_no": "PCB/CTO/16162",
+      "valid_until": "2028-03-31",
+      "institution_name": "Brahmaputra Institute of Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/98456": {
+      "certificate_no": "PCB/CTO/98456",
+      "valid_until": "2028-03-31",
+      "institution_name": "Satpura Institute of Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/59747": {
+      "certificate_no": "PCB/CTO/59747",
+      "valid_until": "2028-03-31",
+      "institution_name": "Nilgiri College of Engineering South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/30858": {
+      "certificate_no": "PCB/CTO/30858",
+      "valid_until": "2028-03-31",
+      "institution_name": "Godavari Institute of Engineering and Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/42887": {
+      "certificate_no": "PCB/CTO/42887",
+      "valid_until": "2028-03-31",
+      "institution_name": "Tapti Institute of Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/44557": {
+      "certificate_no": "PCB/CTO/44557",
+      "valid_until": "2028-03-31",
+      "institution_name": "Mahanadi College of Engineering South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/97140": {
+      "certificate_no": "PCB/CTO/97140",
+      "valid_until": "2028-03-31",
+      "institution_name": "Chambal Institute of Engineering and Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/21085": {
+      "certificate_no": "PCB/CTO/21085",
+      "valid_until": "2028-03-31",
+      "institution_name": "Sabari Engineering College South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/26333": {
+      "certificate_no": "PCB/CTO/26333",
+      "valid_until": "2028-03-31",
+      "institution_name": "Pamba Engineering College South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/78678": {
+      "certificate_no": "PCB/CTO/78678",
+      "valid_until": "2028-03-31",
+      "institution_name": "Tungabhadra Engineering College South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/64927": {
+      "certificate_no": "PCB/CTO/64927",
+      "valid_until": "2028-03-31",
+      "institution_name": "Krishna Valley Institute of Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/58841": {
+      "certificate_no": "PCB/CTO/58841",
+      "valid_until": "2028-03-31",
+      "institution_name": "Shivalik Institute of Engineering and Technology South",
+      "status": "ACTIVE"
+    },
+    "PCB/CTO/10292": {
+      "certificate_no": "PCB/CTO/10292",
+      "valid_until": "2028-03-31",
+      "institution_name": "Vaigai Engineering College South",
+      "status": "ACTIVE"
+    }
+  },
+  "nba_registry": {
+    "NBA/ACC/2023/1041": {
+      "certificate_no": "NBA/ACC/2023/1041",
+      "institution_name": "Coromandel Institute of Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/8484": {
+      "certificate_no": "NBA/ACC/2023/8484",
+      "institution_name": "Vindhya Engineering College",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/9440": {
+      "certificate_no": "NBA/ACC/2023/9440",
+      "institution_name": "Kaveri Engineering College",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/6853": {
+      "certificate_no": "NBA/ACC/2023/6853",
+      "institution_name": "Narmada Engineering College",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/1419": {
+      "certificate_no": "NBA/ACC/2023/1419",
+      "institution_name": "Aravalli Engineering College",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/1335": {
+      "certificate_no": "NBA/ACC/2023/1335",
+      "institution_name": "Deccan Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/1080": {
+      "certificate_no": "NBA/ACC/2023/1080",
+      "institution_name": "Konkan College of Engineering",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/4039": {
+      "certificate_no": "NBA/ACC/2023/4039",
+      "institution_name": "Malabar Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/6178": {
+      "certificate_no": "NBA/ACC/2023/6178",
+      "institution_name": "Brahmaputra Institute of Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/4234": {
+      "certificate_no": "NBA/ACC/2023/4234",
+      "institution_name": "Satpura Institute of Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/3419": {
+      "certificate_no": "NBA/ACC/2023/3419",
+      "institution_name": "Nilgiri Institute of Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/5518": {
+      "certificate_no": "NBA/ACC/2023/5518",
+      "institution_name": "Godavari Engineering College",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/9739": {
+      "certificate_no": "NBA/ACC/2023/9739",
+      "institution_name": "Tapti Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/6827": {
+      "certificate_no": "NBA/ACC/2023/6827",
+      "institution_name": "Mahanadi College of Engineering",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/5301": {
+      "certificate_no": "NBA/ACC/2023/5301",
+      "institution_name": "Chambal Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/6139": {
+      "certificate_no": "NBA/ACC/2023/6139",
+      "institution_name": "Sabari Engineering College",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/8504": {
+      "certificate_no": "NBA/ACC/2023/8504",
+      "institution_name": "Pamba Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/6550": {
+      "certificate_no": "NBA/ACC/2023/6550",
+      "institution_name": "Tungabhadra Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/2770": {
+      "certificate_no": "NBA/ACC/2023/2770",
+      "institution_name": "Krishna Valley College of Engineering",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/4576": {
+      "certificate_no": "NBA/ACC/2023/4576",
+      "institution_name": "Shivalik College of Engineering",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/9627": {
+      "certificate_no": "NBA/ACC/2023/9627",
+      "institution_name": "Vaigai Institute of Engineering and Technology",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/1878": {
+      "certificate_no": "NBA/ACC/2023/1878",
+      "institution_name": "Vindhya Engineering College South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/7927": {
+      "certificate_no": "NBA/ACC/2023/7927",
+      "institution_name": "Kaveri Engineering College South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/8103": {
+      "certificate_no": "NBA/ACC/2023/8103",
+      "institution_name": "Narmada College of Engineering South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/2291": {
+      "certificate_no": "NBA/ACC/2023/2291",
+      "institution_name": "Aravalli College of Engineering South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/1756": {
+      "certificate_no": "NBA/ACC/2023/1756",
+      "institution_name": "Deccan Institute of Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/1267": {
+      "certificate_no": "NBA/ACC/2023/1267",
+      "institution_name": "Konkan Institute of Engineering and Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/2731": {
+      "certificate_no": "NBA/ACC/2023/2731",
+      "institution_name": "Malabar Institute of Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/5772": {
+      "certificate_no": "NBA/ACC/2023/5772",
+      "institution_name": "Brahmaputra Institute of Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/3924": {
+      "certificate_no": "NBA/ACC/2023/3924",
+      "institution_name": "Satpura Institute of Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/2467": {
+      "certificate_no": "NBA/ACC/2023/2467",
+      "institution_name": "Nilgiri College of Engineering South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/9234": {
+      "certificate_no": "NBA/ACC/2023/9234",
+      "institution_name": "Godavari Institute of Engineering and Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/8306": {
+      "certificate_no": "NBA/ACC/2023/8306",
+      "institution_name": "Tapti Institute of Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/6695": {
+      "certificate_no": "NBA/ACC/2023/6695",
+      "institution_name": "Mahanadi College of Engineering South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/9290": {
+      "certificate_no": "NBA/ACC/2023/9290",
+      "institution_name": "Chambal Institute of Engineering and Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/2662": {
+      "certificate_no": "NBA/ACC/2023/2662",
+      "institution_name": "Sabari Engineering College South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/2418": {
+      "certificate_no": "NBA/ACC/2023/2418",
+      "institution_name": "Pamba Engineering College South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/5064": {
+      "certificate_no": "NBA/ACC/2023/5064",
+      "institution_name": "Tungabhadra Engineering College South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/5146": {
+      "certificate_no": "NBA/ACC/2023/5146",
+      "institution_name": "Krishna Valley Institute of Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/8054": {
+      "certificate_no": "NBA/ACC/2023/8054",
+      "institution_name": "Shivalik Institute of Engineering and Technology South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    },
+    "NBA/ACC/2023/4379": {
+      "certificate_no": "NBA/ACC/2023/4379",
+      "institution_name": "Vaigai Engineering College South",
+      "valid_until": "2028-06-30",
+      "programme": "B.E. Computer Science and Engineering",
+      "status": "ACTIVE"
+    }
+  },
+  "affiliating_university": {
+    "UNIV/AFF/2322/2026": {
+      "certificate_no": "UNIV/AFF/2322/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Coromandel Institute of Technology",
+      "status": "ACTIVE",
+      "file_sha256": "f1043ea1d5afd8eecaad94afe753e26d5f3913abaa14ff5933094f00a099f451",
+      "valid_sha256s": [
+        "189e8adfc50a283dedcd6f8b609eeb64513ca6b41835c60b07d595623c81a051"
+      ]
+    },
+    "UNIV/AFF/2250/2026": {
+      "certificate_no": "UNIV/AFF/2250/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Sahyadri College of Engineering",
+      "status": "ACTIVE",
+      "file_sha256": "8e7824381fb016a4b3082022b287ed3b08b49fc71f741fdca70b78a0b9767051"
+    },
+    "UNIV/AFF/8554/2026": {
+      "certificate_no": "UNIV/AFF/8554/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Ganga Valley Institute of Engineering",
+      "status": "ACTIVE",
+      "file_sha256": "009fdb9b8aa92bec85b22a3018ae63b2514b4e834320c3e1edd36ee79c481187"
+    },
+    "UNIV/AFF/8690/2026": {
+      "certificate_no": "UNIV/AFF/8690/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Vindhya Engineering College",
+      "status": "ACTIVE",
+      "file_sha256": "b5660a6e5b229d3cdf74b74326e41c3c4bb10e980ba17e9f7bb9b49bffc5b7fc"
+    },
+    "UNIV/AFF/5240/2026": {
+      "certificate_no": "UNIV/AFF/5240/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Kaveri Engineering College",
+      "status": "ACTIVE",
+      "file_sha256": "5f9bd494bd5d7984ff90990736aa2a25e442fcf1dd049474a7fa18517c65a0f7"
+    },
+    "UNIV/AFF/3535/2026": {
+      "certificate_no": "UNIV/AFF/3535/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Narmada Engineering College",
+      "status": "ACTIVE",
+      "file_sha256": "4794359ac41f9f6f1b4fc81a7c218eb1fd433089a2ff3aa803a2d23a1b1f3503"
+    },
+    "UNIV/AFF/9362/2026": {
+      "certificate_no": "UNIV/AFF/9362/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Aravalli Engineering College",
+      "status": "ACTIVE",
+      "file_sha256": "1195f4975aae9b61a438bb28aa320ad6f9a84a520f4a7284284af28f7ee62615"
+    },
+    "UNIV/AFF/3115/2026": {
+      "certificate_no": "UNIV/AFF/3115/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Deccan Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "43f4345ac3bda2a90edd479906353034d64f4249e6b7e9a3a1cb8cc3ef38fb53"
+    },
+    "UNIV/AFF/2525/2026": {
+      "certificate_no": "UNIV/AFF/2525/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Konkan College of Engineering",
+      "status": "ACTIVE",
+      "file_sha256": "ed769ea32a46cf37c7b2c5a23a59b2511e3e240c2c6174ff8fcd875d6efe0dd9"
+    },
+    "UNIV/AFF/2741/2026": {
+      "certificate_no": "UNIV/AFF/2741/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Malabar Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "8f116fc0ccb3d18943db7a0929c76c0476d194ce93229fd1cd8bc00d931c893d"
+    },
+    "UNIV/AFF/4532/2026": {
+      "certificate_no": "UNIV/AFF/4532/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Brahmaputra Institute of Technology",
+      "status": "ACTIVE",
+      "file_sha256": "4704563adb24770d3462297a06e799b41991e7dfda8526a94774d563b8855e71"
+    },
+    "UNIV/AFF/1919/2026": {
+      "certificate_no": "UNIV/AFF/1919/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Satpura Institute of Technology",
+      "status": "ACTIVE",
+      "file_sha256": "728ae0dbfa08033a98bedb3944fafb1d7a2d67e6541a6abb6b54343f97e28b55"
+    },
+    "UNIV/AFF/4739/2026": {
+      "certificate_no": "UNIV/AFF/4739/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Nilgiri Institute of Technology",
+      "status": "ACTIVE",
+      "file_sha256": "434de5fa7457ebeffe05f470f8da4a3aa848e4589a533efa268399c3b8ed044b"
+    },
+    "UNIV/AFF/6630/2026": {
+      "certificate_no": "UNIV/AFF/6630/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Godavari Engineering College",
+      "status": "ACTIVE",
+      "file_sha256": "4851d7e79768f5a6f6071251cf7d7ecb5654c1af657307887b2ce0fcf9d99503"
+    },
+    "UNIV/AFF/4557/2026": {
+      "certificate_no": "UNIV/AFF/4557/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Tapti Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "d186a248d6f6ee04dcfba081193632c5665663eba6c0b58828a42e576f305097"
+    },
+    "UNIV/AFF/9804/2026": {
+      "certificate_no": "UNIV/AFF/9804/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Mahanadi College of Engineering",
+      "status": "ACTIVE",
+      "file_sha256": "d4bee7d9ff03af32bb7fe59ccd5cba270545428168181325183f64afb0b342a9"
+    },
+    "UNIV/AFF/5939/2026": {
+      "certificate_no": "UNIV/AFF/5939/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Chambal Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "818976c049f1bdeb1276a35a3d6684efdbfed46776010554f51d031edcd9c353"
+    },
+    "UNIV/AFF/3895/2026": {
+      "certificate_no": "UNIV/AFF/3895/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Sabari Engineering College",
+      "status": "ACTIVE",
+      "file_sha256": "4afa789e6d469b2f2728cd5ef8402385dcbbaf3883aab1c51af3cadbb0f782bd"
+    },
+    "UNIV/AFF/7573/2026": {
+      "certificate_no": "UNIV/AFF/7573/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Pamba Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "b94cef687ee4006ebb663960dcd7779467679d91d3f51bb1d87dbd8207563e29"
+    },
+    "UNIV/AFF/1192/2026": {
+      "certificate_no": "UNIV/AFF/1192/2026",
+      "academic_year": "2026-27",
+      "institution_name": "Tungabhadra Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "c85e2c29276eb5dfb56c2f899c322c91aefa208bf33ef8ded31c8b55ac5be95f"
+    },
+    "UNIV/AFF/1463/2026": {
+      "certificate_no": "UNIV/AFF/1463/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Krishna Valley College of Engineering",
+      "status": "ACTIVE",
+      "file_sha256": "d874aa6b21f04cb205da5d7dfe2c5752469e4ef1840a1dccf0dbf9ad30d896f2"
+    },
+    "UNIV/AFF/1887/2026": {
+      "certificate_no": "UNIV/AFF/1887/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Shivalik College of Engineering",
+      "status": "ACTIVE",
+      "file_sha256": "d6b859cd9a2e195bf92968af0ef7d6a57f6fedc5c52ab6f81e64dc7047336888"
+    },
+    "UNIV/AFF/3072/2026": {
+      "certificate_no": "UNIV/AFF/3072/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Vaigai Institute of Engineering and Technology",
+      "status": "ACTIVE",
+      "file_sha256": "a69ff16ea76ecd9b442382c2cddb47f4d14df001610729a6406678fe922f072e"
+    },
+    "UNIV/AFF/4041/2026": {
+      "certificate_no": "UNIV/AFF/4041/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Vindhya Engineering College South",
+      "status": "ACTIVE",
+      "file_sha256": "97e467374801b2516e50e5f02e9fbd486fca71b03490ca8e9c519012c8259d41"
+    },
+    "UNIV/AFF/8096/2026": {
+      "certificate_no": "UNIV/AFF/8096/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Kaveri Engineering College South",
+      "status": "ACTIVE",
+      "file_sha256": "c836463b127dd670e34ef57a341e68cb823adfdec1b0555ff75a5e6ecc5b29c7"
+    },
+    "UNIV/AFF/4101/2026": {
+      "certificate_no": "UNIV/AFF/4101/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Narmada College of Engineering South",
+      "status": "ACTIVE",
+      "file_sha256": "4fd97c806b6d46cc54f0139b04bf3ab6e9384f119d5e5b1c06f13a9d38c7b7a9"
+    },
+    "UNIV/AFF/8552/2026": {
+      "certificate_no": "UNIV/AFF/8552/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Aravalli College of Engineering South",
+      "status": "ACTIVE",
+      "file_sha256": "75d00bf37a1e816a2746acfdb056ab3366ef7bef3af4c8641abe3139f27247f1"
+    },
+    "UNIV/AFF/2165/2026": {
+      "certificate_no": "UNIV/AFF/2165/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Deccan Institute of Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "58321b7227dc207be0872b168d337eaa79a9189d771497dd18068b2ebe108ca7"
+    },
+    "UNIV/AFF/9174/2026": {
+      "certificate_no": "UNIV/AFF/9174/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Konkan Institute of Engineering and Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "f8a33cb0ed75c336263d0af922b2277ade48cbc062bb4acfe7f7500fb90a497d"
+    },
+    "UNIV/AFF/7814/2026": {
+      "certificate_no": "UNIV/AFF/7814/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Malabar Institute of Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "582c68bc04730ada0b5eabaeec129da6c642c276ba8242f89f94f039a476f954"
+    },
+    "UNIV/AFF/2492/2026": {
+      "certificate_no": "UNIV/AFF/2492/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Brahmaputra Institute of Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "494e39f1a9ac00e0a4c7b469468b7f83aad6c178a4764501fef70f1024670cb8"
+    },
+    "UNIV/AFF/3811/2026": {
+      "certificate_no": "UNIV/AFF/3811/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Satpura Institute of Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "370bb67f573c0dff2d0bb4e6ce685fabc5a4a04fee8c6cd1fcbe0117bd91ec72"
+    },
+    "UNIV/AFF/9159/2026": {
+      "certificate_no": "UNIV/AFF/9159/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Nilgiri College of Engineering South",
+      "status": "ACTIVE",
+      "file_sha256": "4a306777ef48099d04f7aaa9cf8816ecde65c3c3aa5f2a75cf64c4088338ebee"
+    },
+    "UNIV/AFF/8833/2026": {
+      "certificate_no": "UNIV/AFF/8833/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Godavari Institute of Engineering and Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "707f2e868c8a726721ae9f6d399444c2992029e3daaf8283b6d9d15a136f689c"
+    },
+    "UNIV/AFF/7724/2026": {
+      "certificate_no": "UNIV/AFF/7724/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Tapti Institute of Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "a0749d20c3b73403672f673d1604114e0787fec76bbd5cafeb581e3b1c764e90"
+    },
+    "UNIV/AFF/8408/2026": {
+      "certificate_no": "UNIV/AFF/8408/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Mahanadi College of Engineering South",
+      "status": "ACTIVE",
+      "file_sha256": "429b0768e76d7946f8f1665600d90107a62fa84ee8a8cbeb2c76d234e31a7507"
+    },
+    "UNIV/AFF/6737/2026": {
+      "certificate_no": "UNIV/AFF/6737/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Chambal Institute of Engineering and Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "0d9ae9920a705d742db2441ea13c53a61545892cc212fd8d02f5405947e4c47e"
+    },
+    "UNIV/AFF/2915/2026": {
+      "certificate_no": "UNIV/AFF/2915/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Sabari Engineering College South",
+      "status": "ACTIVE",
+      "file_sha256": "9b7f237056009c1b4cdf470aae2ea1d9f1079e5b09c8c7ce9e32018dd75e1882"
+    },
+    "UNIV/AFF/6675/2026": {
+      "certificate_no": "UNIV/AFF/6675/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Pamba Engineering College South",
+      "status": "ACTIVE",
+      "file_sha256": "b9ac8096f0017c63530eaedef7c81939983327bb82932fc01685d23c48239ed1"
+    },
+    "UNIV/AFF/7956/2026": {
+      "certificate_no": "UNIV/AFF/7956/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Tungabhadra Engineering College South",
+      "status": "ACTIVE",
+      "file_sha256": "e65232f85310239e02cb98307759a15350dc23a668df867cf59868553ebf85da"
+    },
+    "UNIV/AFF/1557/2026": {
+      "certificate_no": "UNIV/AFF/1557/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Krishna Valley Institute of Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "c2fd1ef9f67e3d9e5975c328435762e8fa9de82daea18dd64b5f5c8560397d2a"
+    },
+    "UNIV/AFF/8420/2026": {
+      "certificate_no": "UNIV/AFF/8420/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Shivalik Institute of Engineering and Technology South",
+      "status": "ACTIVE",
+      "file_sha256": "0a6f379be82e5ddad36eee2859d51adcf5ad675b22e3dff92a17aac7e73d03fa"
+    },
+    "UNIV/AFF/4576/2026": {
+      "certificate_no": "UNIV/AFF/4576/2026",
+      "academic_year": "2027-28",
+      "institution_name": "Vaigai Engineering College South",
+      "status": "ACTIVE",
+      "file_sha256": "ce1ff9debcf01d754c90563aff67169ec0dfa8d220a8df3840d6bcca4494c4ca"
+    }
+  },
+  "municipal_records": {
+    "MC/OC/2017/869": {
+      "certificate_no": "MC/OC/2017/869",
+      "institution_name": "Coromandel Institute of Technology",
+      "issue_date": "2015-08-25",
+      "status": "VALID"
+    },
+    "MC/OC/2010/968": {
+      "certificate_no": "MC/OC/2010/968",
+      "institution_name": "Ganga Valley Institute of Engineering",
+      "issue_date": "2015-06-23",
+      "status": "VALID"
+    },
+    "MC/OC/2017/245": {
+      "certificate_no": "MC/OC/2017/245",
+      "institution_name": "Vindhya Engineering College",
+      "issue_date": "2015-04-16",
+      "status": "VALID"
+    },
+    "MC/OC/2014/424": {
+      "certificate_no": "MC/OC/2014/424",
+      "institution_name": "Kaveri Engineering College",
+      "issue_date": "2015-02-15",
+      "status": "VALID"
+    },
+    "MC/OC/2010/953": {
+      "certificate_no": "MC/OC/2010/953",
+      "institution_name": "Aravalli Engineering College",
+      "issue_date": "2015-06-12",
+      "status": "VALID"
+    },
+    "MC/OC/2017/988": {
+      "certificate_no": "MC/OC/2017/988",
+      "institution_name": "Deccan Institute of Engineering and Technology",
+      "issue_date": "2015-04-25",
+      "status": "VALID"
+    },
+    "MC/OC/2014/935": {
+      "certificate_no": "MC/OC/2014/935",
+      "institution_name": "Konkan College of Engineering",
+      "issue_date": "2015-04-04",
+      "status": "VALID"
+    },
+    "MC/OC/2017/721": {
+      "certificate_no": "MC/OC/2017/721",
+      "institution_name": "Brahmaputra Institute of Technology",
+      "issue_date": "2015-01-21",
+      "status": "VALID"
+    },
+    "MC/OC/2015/699": {
+      "certificate_no": "MC/OC/2015/699",
+      "institution_name": "Satpura Institute of Technology",
+      "issue_date": "2015-09-01",
+      "status": "VALID"
+    },
+    "MC/OC/2018/800": {
+      "certificate_no": "MC/OC/2018/800",
+      "institution_name": "Nilgiri Institute of Technology",
+      "issue_date": "2015-07-18",
+      "status": "VALID"
+    },
+    "MC/OC/2016/824": {
+      "certificate_no": "MC/OC/2016/824",
+      "institution_name": "Godavari Engineering College",
+      "issue_date": "2015-04-12",
+      "status": "VALID"
+    },
+    "MC/OC/2020/109": {
+      "certificate_no": "MC/OC/2020/109",
+      "institution_name": "Mahanadi College of Engineering",
+      "issue_date": "2015-08-28",
+      "status": "VALID"
+    },
+    "MC/OC/2015/596": {
+      "certificate_no": "MC/OC/2015/596",
+      "institution_name": "Chambal Institute of Engineering and Technology",
+      "issue_date": "2015-02-04",
+      "status": "VALID"
+    },
+    "MC/OC/2015/430": {
+      "certificate_no": "MC/OC/2015/430",
+      "institution_name": "Sabari Engineering College",
+      "issue_date": "2015-08-24",
+      "status": "VALID"
+    },
+    "MC/OC/2020/726": {
+      "certificate_no": "MC/OC/2020/726",
+      "institution_name": "Tungabhadra Institute of Engineering and Technology",
+      "issue_date": "2015-08-14",
+      "status": "VALID"
+    },
+    "MC/OC/2014/624": {
+      "certificate_no": "MC/OC/2014/624",
+      "institution_name": "Shivalik College of Engineering",
+      "issue_date": "2015-07-27",
+      "status": "VALID"
+    },
+    "MC/OC/2017/346": {
+      "certificate_no": "MC/OC/2017/346",
+      "institution_name": "Vaigai Institute of Engineering and Technology",
+      "issue_date": "2015-07-07",
+      "status": "VALID"
+    },
+    "MC/OC/2012/217": {
+      "certificate_no": "MC/OC/2012/217",
+      "institution_name": "Narmada College of Engineering South",
+      "issue_date": "2015-04-06",
+      "status": "VALID"
+    },
+    "MC/OC/2020/673": {
+      "certificate_no": "MC/OC/2020/673",
+      "institution_name": "Aravalli College of Engineering South",
+      "issue_date": "2015-05-11",
+      "status": "VALID"
+    },
+    "MC/OC/2017/704": {
+      "certificate_no": "MC/OC/2017/704",
+      "institution_name": "Konkan Institute of Engineering and Technology South",
+      "issue_date": "2015-08-13",
+      "status": "VALID"
+    },
+    "MC/OC/2018/274": {
+      "certificate_no": "MC/OC/2018/274",
+      "institution_name": "Malabar Institute of Technology South",
+      "issue_date": "2015-07-15",
+      "status": "VALID"
+    },
+    "MC/OC/2013/766": {
+      "certificate_no": "MC/OC/2013/766",
+      "institution_name": "Brahmaputra Institute of Technology South",
+      "issue_date": "2015-08-21",
+      "status": "VALID"
+    },
+    "MC/OC/2016/669": {
+      "certificate_no": "MC/OC/2016/669",
+      "institution_name": "Satpura Institute of Technology South",
+      "issue_date": "2015-08-03",
+      "status": "VALID"
+    },
+    "MC/OC/2018/218": {
+      "certificate_no": "MC/OC/2018/218",
+      "institution_name": "Nilgiri College of Engineering South",
+      "issue_date": "2015-01-05",
+      "status": "VALID"
+    },
+    "MC/OC/2011/348": {
+      "certificate_no": "MC/OC/2011/348",
+      "institution_name": "Godavari Institute of Engineering and Technology South",
+      "issue_date": "2015-08-22",
+      "status": "VALID"
+    },
+    "MC/OC/2014/655": {
+      "certificate_no": "MC/OC/2014/655",
+      "institution_name": "Mahanadi College of Engineering South",
+      "issue_date": "2015-07-18",
+      "status": "VALID"
+    },
+    "MC/OC/2018/949": {
+      "certificate_no": "MC/OC/2018/949",
+      "institution_name": "Chambal Institute of Engineering and Technology South",
+      "issue_date": "2015-05-17",
+      "status": "VALID"
+    },
+    "MC/OC/2013/482": {
+      "certificate_no": "MC/OC/2013/482",
+      "institution_name": "Sabari Engineering College South",
+      "issue_date": "2015-09-01",
+      "status": "VALID"
+    },
+    "MC/OC/2017/449": {
+      "certificate_no": "MC/OC/2017/449",
+      "institution_name": "Pamba Engineering College South",
+      "issue_date": "2015-03-20",
+      "status": "VALID"
+    },
+    "MC/OC/2020/170": {
+      "certificate_no": "MC/OC/2020/170",
+      "institution_name": "Tungabhadra Engineering College South",
+      "issue_date": "2015-09-09",
+      "status": "VALID"
+    },
+    "MC/OC/2019/636": {
+      "certificate_no": "MC/OC/2019/636",
+      "institution_name": "Krishna Valley Institute of Technology South",
+      "issue_date": "2015-09-06",
+      "status": "VALID"
+    },
+    "MC/OC/2017/723": {
+      "certificate_no": "MC/OC/2017/723",
+      "institution_name": "Shivalik Institute of Engineering and Technology South",
+      "issue_date": "2015-02-13",
+      "status": "VALID"
+    },
+    "MC/OC/2014/985": {
+      "certificate_no": "MC/OC/2014/985",
+      "institution_name": "Vaigai Engineering College South",
+      "issue_date": "2015-05-23",
+      "status": "VALID"
+    },
+    "BCC/MD/2025/1102": {
+      "certificate_no": "BCC/MD/2025/1102",
+      "institution_name": "Coromandel Institute of Technology",
+      "issue_date": "2025-01-20",
+      "status": "VALID"
+    },
+    "BP/SAN/2024/8831": {
+      "certificate_no": "BP/SAN/2024/8831",
+      "institution_name": "Coromandel Institute of Technology",
+      "issue_date": "2024-03-15",
+      "status": "VALID"
+    },
+    "BP/MD/2024/9021": {
+      "certificate_no": "BP/MD/2024/9021",
+      "institution_name": "Coromandel Institute of Technology",
+      "sanctioned_area_sqm": 18500.0,
+      "issue_date": "2024-11-15",
+      "status": "VALID"
+    }
+  },
+  "state_land_records": {
+    "DOC/CH/2018/7742": {
+      "registration_no": "DOC/CH/2018/7742",
+      "survey_number": "SY-402/1A, SY-402/1B",
+      "land_area_acres": "10.5",
+      "institution_name": "Coromandel Institute of Technology",
+      "status": "REGISTERED"
+    },
+    "TP/LU/2019/3318": {
+      "certificate_no": "TP/LU/2019/3318",
+      "survey_number": "SY-402/1A, SY-402/1B",
+      "institution_name": "Coromandel Institute of Technology",
+      "status": "VALID"
+    }
+  },
+  "digilocker_nad": {
+    "25214567ABCDEF1234": {
+      "udin": "25214567ABCDEF1234",
+      "institution_name": "Coromandel Institute of Technology",
+      "financial_year": "2025-26",
+      "status": "VALID"
+    }
+  }
+}

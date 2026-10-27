@@ -1,0 +1,130 @@
+# Application categories and their validation rules.
+#
+# IMPORTANT: the rules, thresholds and "ref" strings below are ILLUSTRATIVE.
+# Before any real use, an authorized AICTE official must set them from the
+# Approval Process Handbook (APH) applicable to the academic year. Editing this
+# file changes behaviour without code changes; every run records the rule-set
+# version it used in the audit trail.
+#
+# Rule types understood by the engine (app/pipeline/rules.py):
+#   required_document  - doc type must be uploaded
+#   not_expired        - doc's expiry field must cover a reference date
+#   max_age_days       - doc date must be recent relative to application date
+#   field_consistency  - same field must agree across docs and the form
+#   record_match       - form/doc value must match the authorized AICTE record
+#   record_flag        - a boolean/status in AICTE records must hold
+#   intake_within_approved - requested intake must not exceed approved intake
+#   numeric_tolerance  - two numeric values must agree within a tolerance
+#
+# Optional on any rule: title - the wording officials and institutions see when it fails.
+
+version: "2026.10-demo"
+
+# What an institution must fix before it can freeze and submit its application.
+# Anything not blocked here is shown to the institution as a warning before it freezes,
+# and then reaches the scrutiny officer as a finding with evidence.
+submission_gate:
+  block_missing_documents: true    # a mandatory document slot is empty
+  block_missing_photos: true       # fewer infrastructure photos than the category needs
+  block_wrong_documents: false     # a slot holds a different document type -> officer sees DOC-CLASS
+  block_expired_documents: false   # an uploaded certificate has expired -> officer sees the expiry rule
+
+# Days an institution gets to rectify after an officer asks (shown on the deficiency memo).
+rectification_window_days: 15
+
+# How long an unacknowledged alert may stay open before it is shown as overdue.
+alert_sla_hours: {high: 24, medium: 72, low: 168}
+
+categories:
+  EOA:
+    label: Extension of Approval (no change in intake)
+    rules:
+      - {id: EOA-DOC-01, type: required_document, doc: affidavit, severity: high, ref: "APH: mandatory affidavit (configure clause)"}
+      - {id: EOA-DOC-02, type: required_document, doc: fire_noc, severity: high, ref: "APH: fire safety (configure clause)"}
+      - {id: EOA-DOC-03, type: required_document, doc: building_completion, severity: high, ref: "APH: building/occupancy (configure clause)"}
+      - {id: EOA-DOC-04, type: required_document, doc: university_affiliation, severity: medium, ref: "APH: affiliation (configure clause)"}
+      - {id: EOA-DOC-05, type: required_document, doc: ter_receipt, severity: high, ref: "APH: processing fee (configure clause)"}
+      - {id: EOA-DOC-06, type: required_document, doc: pollution_noc, severity: low, ref: "State requirement (configure)"}
+      - {id: EOA-DOC-07, type: required_document, doc: infra_photo, min_count: 4, severity: medium, ref: "APH: infrastructure evidence (configure clause)"}
+
+      - {id: EOA-VAL-01, type: not_expired, doc: fire_noc, reference: academic_year_start, severity: high, ref: "Fire NOC must be valid at start of academic year"}
+      - {id: EOA-VAL-02, type: not_expired, doc: pollution_noc, reference: academic_year_start, severity: medium, ref: "Consent must be valid at start of academic year"}
+      - {id: EOA-VAL-03, type: not_expired, doc: nba_accreditation, reference: application_date, severity: low, optional_doc: true, ref: "Accreditation claimed must be current"}
+      - {id: EOA-VAL-04, type: max_age_days, doc: affidavit, field: issue_date, days: 180, severity: medium, ref: "Affidavit must be recent (configure limit)"}
+
+      - {id: EOA-CON-01, type: field_consistency, field: institution_name, fuzzy: 0.88, severity: medium, ref: "Name must match across documents"}
+      - {id: EOA-CON-02, type: field_consistency, field: aicte_permanent_id, severity: high, ref: "Permanent ID must match across documents"}
+      - {id: EOA-CON-03, type: field_consistency, field: academic_year, severity: medium, ref: "Academic year must match application"}
+      - {id: EOA-CON-04, type: numeric_tolerance, a: "doc:building_completion.built_up_area_sqm", b: "form:built_up_area_sqm", tolerance_pct: 2, severity: medium, ref: "Declared area must match completion certificate"}
+      - {id: EOA-CON-05, type: numeric_tolerance, a: "doc:floor_plan.sanctioned_area_sqm", b: "form:built_up_area_sqm", tolerance_pct: 5, severity: high, optional_doc: true, ref: "Declared area must not exceed municipal sanctioned blueprint"}
+
+      - {id: EOA-REC-01, type: record_match, form_field: institution_name, record_field: name, fuzzy: 0.9, severity: high, ref: "Must match AICTE institution master"}
+      - {id: EOA-REC-02, type: record_match, form_field: aicte_permanent_id, record_field: permanent_id, severity: high, ref: "Must match AICTE institution master"}
+      - {id: EOA-REC-03, title: "Processing fee not recorded as paid", type: record_flag, record_path: "ter_payments.{academic_year}", expect: PAID, severity: high, ref: "Fee payment must be recorded in AICTE payment system"}
+      - {id: EOA-REC-04, title: "Earlier deficiencies are still open", type: record_flag, record_path: "open_deficiencies", expect: EMPTY, severity: medium, ref: "Earlier deficiencies must be closed"}
+      - {id: EOA-REC-05, title: "No previous approval on record", type: record_flag, record_path: "previous_eoa.status", expect: GRANTED, severity: high, ref: "Previous EoA must be on record"}
+      - {id: EOA-REC-06, type: intake_within_approved, severity: high, ref: "EoA without change cannot exceed approved intake"}
+      - {id: EOA-REC-07, type: numeric_tolerance, a: "form:faculty_count", b: "record:faculty_on_record", tolerance_pct: 10, severity: medium, ref: "Declared faculty must match AICTE faculty records"}
+
+  INTAKE_INCREASE:
+    label: Increase in Intake
+    rules:
+      - {id: INC-DOC-01, type: required_document, doc: affidavit, severity: high, ref: "APH (configure)"}
+      - {id: INC-DOC-02, type: required_document, doc: fire_noc, severity: high, ref: "APH (configure)"}
+      - {id: INC-DOC-03, type: required_document, doc: building_completion, severity: high, ref: "APH (configure)"}
+      - {id: INC-DOC-04, type: required_document, doc: nba_accreditation, severity: high, ref: "Increase may require accreditation (configure)"}
+      - {id: INC-DOC-05, type: required_document, doc: infra_photo, min_count: 6, severity: medium, ref: "APH (configure)"}
+      - {id: INC-VAL-01, type: not_expired, doc: fire_noc, reference: academic_year_start, severity: high, ref: "APH (configure)"}
+      - {id: INC-VAL-02, type: not_expired, doc: nba_accreditation, reference: academic_year_start, severity: high, ref: "APH (configure)"}
+      - {id: INC-CON-01, type: field_consistency, field: institution_name, fuzzy: 0.88, severity: medium, ref: "APH (configure)"}
+      - {id: INC-CON-02, type: field_consistency, field: aicte_permanent_id, severity: high, ref: "APH (configure)"}
+      - {id: INC-REC-01, type: record_match, form_field: aicte_permanent_id, record_field: permanent_id, severity: high, ref: "APH (configure)"}
+      - {id: INC-REC-02, title: "Earlier deficiencies are still open", type: record_flag, record_path: "open_deficiencies", expect: EMPTY, severity: high, ref: "APH (configure)"}
+
+  NEW_PROGRAMME:
+    label: Introduction of a new programme
+    rules:
+      - {id: NPR-DOC-01, type: required_document, doc: affidavit, severity: high, ref: "APH (configure)"}
+      - {id: NPR-DOC-02, type: required_document, doc: university_affiliation, severity: high, ref: "University consent for the new programme (configure)"}
+      - {id: NPR-DOC-03, type: required_document, doc: state_govt_noc, severity: high, ref: "State Government NOC (configure)"}
+      - {id: NPR-DOC-04, type: required_document, doc: building_completion, severity: high, ref: "APH (configure)"}
+      - {id: NPR-DOC-05, type: required_document, doc: fire_noc, severity: high, ref: "APH (configure)"}
+      - {id: NPR-DOC-06, type: required_document, doc: infra_photo, min_count: 6, severity: medium, ref: "Labs for the new programme (configure)"}
+      - {id: NPR-VAL-01, type: not_expired, doc: fire_noc, reference: academic_year_start, severity: high, ref: "APH (configure)"}
+      - {id: NPR-CON-01, type: field_consistency, field: institution_name, fuzzy: 0.88, severity: medium, ref: "APH (configure)"}
+      - {id: NPR-CON-02, type: field_consistency, field: academic_year, severity: medium, ref: "APH (configure)"}
+      - {id: NPR-REC-01, type: record_match, form_field: aicte_permanent_id, record_field: permanent_id, severity: high, ref: "APH (configure)"}
+      - {id: NPR-REC-02, title: "Earlier deficiencies are still open", type: record_flag, record_path: "open_deficiencies", expect: EMPTY, severity: high, ref: "APH (configure)"}
+      - {id: NPR-REC-03, type: numeric_tolerance, a: "form:faculty_count", b: "record:faculty_on_record", tolerance_pct: 10, severity: medium, ref: "APH (configure)"}
+
+  CHANGE_OF_NAME:
+    label: Change in name of the institution
+    rules:
+      - {id: CON-DOC-01, type: required_document, doc: affidavit, severity: high, ref: "APH (configure)"}
+      - {id: CON-DOC-02, type: required_document, doc: trust_resolution, severity: high, ref: "Resolution of the Society/Trust (configure)"}
+      - {id: CON-DOC-03, type: required_document, doc: state_govt_noc, severity: high, ref: "State Government NOC (configure)"}
+      - {id: CON-DOC-04, type: required_document, doc: university_affiliation, severity: medium, ref: "University consent (configure)"}
+      - {id: CON-REC-01, type: record_match, form_field: aicte_permanent_id, record_field: permanent_id, severity: high, ref: "APH (configure)"}
+      - {id: CON-REC-02, title: "No previous approval on record", type: record_flag, record_path: "previous_eoa.status", expect: GRANTED, severity: high, ref: "APH (configure)"}
+
+  NEW_INSTITUTION:
+    label: Establishment of New Technical Institution
+    rules:
+      - {id: NEW-DOC-01, type: required_document, doc: affidavit, severity: high, ref: "APH: Mandatory Affidavit (configure clause)"}
+      - {id: NEW-DOC-02, type: required_document, doc: land_deed, severity: high, ref: "APH: Land Ownership / 30-Year Registered Lease Deed (configure clause)"}
+      - {id: NEW-DOC-03, type: required_document, doc: town_planning_noc, severity: high, ref: "APH: Town Planning Authority / Land Use Certificate (configure clause)"}
+      - {id: NEW-DOC-04, type: required_document, doc: building_completion, severity: high, ref: "APH: Building Completion & Structural Safety Certificate (configure clause)"}
+      - {id: NEW-DOC-05, type: required_document, doc: fire_noc, severity: high, ref: "APH: Fire & Emergency Services NOC (configure clause)"}
+      - {id: NEW-DOC-06, type: required_document, doc: balance_sheet, severity: medium, ref: "APH: Audited Balance Sheet / Financial Viability (configure clause)"}
+      - {id: NEW-DOC-07, type: required_document, doc: infra_photo, min_count: 8, severity: medium, ref: "APH: Comprehensive Campus Evidence (configure clause)"}
+      - {id: NEW-VAL-01, type: not_expired, doc: fire_noc, reference: academic_year_start, severity: high, ref: "Fire NOC must cover academic session"}
+      - {id: NEW-CON-01, type: field_consistency, field: institution_name, fuzzy: 0.88, severity: high, ref: "Institution name match across Deed, NOC and Affidavit"}
+      - {id: NEW-CON-02, type: field_consistency, field: survey_number, severity: high, ref: "Survey number match across Land Deed and Town Planning NOC"}
+
+  COURSE_CLOSURE:
+    label: Closure of Course / Programme
+    rules:
+      - {id: CLO-DOC-01, type: required_document, doc: affidavit, severity: high, ref: "APH: Undertaking for Course Closure (configure clause)"}
+      - {id: CLO-DOC-02, type: required_document, doc: trust_resolution, severity: high, ref: "APH: Governing Body / Trust Resolution (configure clause)"}
+      - {id: CLO-DOC-03, type: required_document, doc: university_affiliation, severity: high, ref: "APH: University NOC / No Pending Students (configure clause)"}
+      - {id: CLO-REC-01, type: record_match, form_field: aicte_permanent_id, record_field: permanent_id, severity: high, ref: "Must match AICTE institution master"}

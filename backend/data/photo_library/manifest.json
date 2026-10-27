@@ -1,0 +1,35 @@
+{
+  "_about": "Realistic room photos supplied by the Pramaan team, used for the demo colleges' infrastructure evidence and the sample uploads. Each college gets a different crop, so no two colleges submit the same picture and no two rooms of one college overlap (either would rightly be flagged as re-used evidence). crop = [left, right] as fractions of the source width; the full height is kept. Colleges not listed here (the random evaluation batch) get drawn rooms.",
+  "sources": {
+    "classroom": "classroom.png",
+    "seminar_hall": "seminar_hall.png",
+    "computer_lab": "computer_lab.png",
+    "library": "library.png"
+  },
+  "demo": {
+    "INST-TN-0412": [
+      {"tag": "classroom-101", "source": "classroom", "crop": [0.25, 0.75]},
+      {"tag": "seminar-hall-1", "source": "seminar_hall", "crop": [0.0, 0.5]},
+      {"tag": "lab-cse-1", "source": "computer_lab", "crop": [0.0, 0.5]},
+      {"tag": "library-main", "source": "library", "crop": [0.0, 0.5]}
+    ],
+    "INST-MH-1187": [
+      {"tag": "classroom-101", "source": "classroom", "crop": [0.0, 0.5]},
+      {"tag": "classroom-102", "source": "classroom", "crop": [0.5, 1.0]},
+      {"tag": "seminar-hall-1", "source": "seminar_hall", "crop": [0.5, 1.0]},
+      {"tag": "lab-cse-1", "source": "computer_lab", "crop": [0.5, 1.0]}
+    ],
+    "INST-UP-2290": [
+      {"tag": "classroom-101", "source": "seminar_hall", "crop": [0.25, 0.75]},
+      {"tag": "lab-cse-1", "source": "computer_lab", "crop": [0.25, 0.75]},
+      {"tag": "lab-ece-1", "copy_of": "lab-cse-1"},
+      {"tag": "library-main", "source": "library", "crop": [0.5, 1.0]}
+    ]
+  },
+  "test_upload": [
+    {"stem": "01_classroom_101", "source": "classroom", "crop": [0.12, 0.88]},
+    {"stem": "02_lab_1", "source": "computer_lab", "crop": [0.12, 0.88]},
+    {"stem": "03_library_0", "source": "library", "crop": [0.12, 0.88]},
+    {"stem": "04_seminar_hall_300", "source": "seminar_hall", "crop": [0.12, 0.88]}
+  ]
+}

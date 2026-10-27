@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+backend/data/eval_docs/
+backend/scripts/_demo_signing_keys/
+.pytest_cache/

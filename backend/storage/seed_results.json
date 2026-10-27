@@ -1,0 +1,36 @@
+[
+  {
+    "app_id": 1,
+    "institution_id": "INST-TN-0412",
+    "faults": []
+  },
+  {
+    "app_id": 2,
+    "institution_id": "INST-MH-1187",
+    "faults": [
+      "ay_mismatch_univ",
+      "blurry_photo",
+      "expired_fire",
+      "faculty_record_mismatch",
+      "intake_exceeds",
+      "low_faculty",
+      "missing_library_photo",
+      "old_affidavit",
+      "open_deficiency",
+      "ter_unpaid",
+      "wrong_slot_building"
+    ]
+  },
+  {
+    "app_id": 3,
+    "institution_id": "INST-UP-2290",
+    "faults": [
+      "copied_nba",
+      "dup_photos",
+      "edited_after_signing",
+      "fake_ter",
+      "id_mismatch_affidavit",
+      "tampered_fire"
+    ]
+  }
+]
